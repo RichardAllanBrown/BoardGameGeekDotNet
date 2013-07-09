@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\IBGGClient.cs" />
+    <Compile Include="Enums\BoardGameSettings.cs" />
     <Compile Include="Enums\searchSettings.cs" />
     <Compile Include="Objects\BGSearchResult.cs" />
     <Compile Include="Objects\BoardGame.cs" />
