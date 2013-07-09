@@ -11,8 +11,7 @@ namespace BGGdotNET.Client
     public interface IBGGClient
     {
         //Fetch specific boardgame methods
-        BoardGame getBoardGame(int gameID);
-        List<BoardGame> getBoardGames(int[] gameIDs);
+        List<BoardGame> getBoardGame(params int[] gameIDs);
 
         //Search functionality
         List<BGSearchResult> searchBoardGame(string searchInput);

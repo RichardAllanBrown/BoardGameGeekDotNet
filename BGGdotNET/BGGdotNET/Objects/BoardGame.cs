@@ -12,7 +12,7 @@ namespace BGGdotNET.Objects
     public class BoardGame
     {
         public int ObjectID { get; set; }
-        public int yeadPublished { get; set; }
+        public int yearPublished { get; set; }
         public int minPlayers { get; set; }
         public int maxPlayers { get; set; }
         public int playingTime { get; set; }

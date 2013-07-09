@@ -15,14 +15,42 @@ namespace BGGdotNET.Client
     {
         private string url = "http://www.boardgamegeek.com/xmlapi";
 
-        public BoardGame getBoardGame(int gameID)
+        public List<BoardGame> getBoardGame(params int[] gameIDs)
         {
-            throw new NotImplementedException();
-        }
+            StringBuilder sb = new StringBuilder(url);
 
-        public List<BoardGame> getBoardGames(int[] gameIDs)
-        {
-            throw new NotImplementedException();
+            sb.Append("/boardgame/");
+
+            foreach(int parm in gameIDs)
+            {
+                sb.Append(parm);
+            }
+
+            string requestUrl = sb.ToString();
+
+            XDocument result = XDocument.Load(requestUrl);
+
+            var boardgames = from data in result.Descendants("boardgame")
+                             select new BoardGame
+                             {
+                                 age = int.Parse(data.Element("age").Value),
+                                 description = data.Element("description").Value,
+                                 imageThumnailURL = data.Element("thumbnail").Value,
+                                 imageURL = data.Element("image").Value,
+                                 maxPlayers = int.Parse(data.Element("maxplayers").Value),
+                                 minPlayers = int.Parse(data.Element("minplayers").Value),
+                                 ObjectID = (int)data.Attribute("objectid"),
+                                 //playingTime = int.Parse(data.Attribute("playingtime").Value),  //THROWS EXCEPTION, WHY?
+                                 yearPublished = int.Parse(data.Element("yearpublished").Value),
+                                 categories = (from cat in data.Elements("boardgamecategory")
+                                              select new BoardGameGeekPair
+                                              {
+                                                  value = cat.Value,
+                                                  objectID = (int)cat.Attribute("objectid")
+                                              }).ToList()
+                             };
+
+            return boardgames.ToList();
         }
 
         public List<BGSearchResult> searchBoardGame(string input)
@@ -55,7 +83,7 @@ namespace BGGdotNET.Client
                                 {
                                     name = data.Element("name").Value,
                                     yearPublished = int.Parse(data.Element("yearpublished").Value),
-                                    ObjectID = (int)data.Attribute("objectid")
+                                    ObjectID = (int) data.Attribute("objectid")
                                 };
 
             return searchResults.ToList();
