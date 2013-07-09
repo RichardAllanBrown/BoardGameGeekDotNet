@@ -34,20 +34,104 @@ namespace BGGdotNET.Client
                              select new BoardGame
                              {
                                  age = int.Parse(data.Element("age").Value),
+
                                  description = data.Element("description").Value,
+
                                  imageThumnailURL = data.Element("thumbnail").Value,
+
                                  imageURL = data.Element("image").Value,
+
                                  maxPlayers = int.Parse(data.Element("maxplayers").Value),
+
                                  minPlayers = int.Parse(data.Element("minplayers").Value),
+
                                  ObjectID = (int)data.Attribute("objectid"),
-                                 //playingTime = int.Parse(data.Attribute("playingtime").Value),  //THROWS EXCEPTION, WHY?
+
                                  yearPublished = int.Parse(data.Element("yearpublished").Value),
+
                                  categories = (from cat in data.Elements("boardgamecategory")
                                               select new BoardGameGeekPair
                                               {
                                                   value = cat.Value,
                                                   objectID = (int)cat.Attribute("objectid")
-                                              }).ToList()
+                                              }).ToList(),
+
+                                 designers = (from des in data.Elements("boardgamedesigner")
+                                             select new BoardGameGeekPair
+                                             {
+                                                 value = des.Value,
+                                                 objectID = (int)des.Attribute("objectid")
+                                             }).ToList(),
+
+                                 expansions = (from exp in data.Elements("boardgameexpansion")
+                                             select new BoardGameGeekPair
+                                             {
+                                                 value = exp.Value,
+                                                 objectID = (int)exp.Attribute("objectid")
+                                             }).ToList(),
+
+                                 honors = (from hon in data.Elements("boardgamehonor")
+                                           select new BoardGameGeekPair
+                                           {
+                                               value = hon.Value,
+                                               objectID = (int)hon.Attribute("objectid")
+                                           }).ToList(),
+
+                                 mechanics = (from mec in data.Elements("boardgamemechanic")
+                                              select new BoardGameGeekPair
+                                              {
+                                                  value = mec.Value,
+                                                  objectID = (int)mec.Attribute("objectid")
+                                              }).ToList(),
+
+                                 names = (from name in data.Elements("name")
+                                          select new BoardGameName
+                                          {
+                                              name = name.Value,
+                                              sortIndex = (int)name.Attribute("sortindex")
+                                          }).ToList(),
+
+                                 podcasts = (from pod in data.Elements("boardgamepodcastepisode")
+                                             select new BoardGameGeekPair
+                                             {
+                                                 value = pod.Value,
+                                                 objectID = (int)pod.Attribute("objectid")
+                                             }).ToList(),
+
+                                 publishers = (from pub in data.Elements("boardgamepublisher")
+                                               select new BoardGameGeekPair
+                                               {
+                                                   value = pub.Value,
+                                                   objectID = (int)pub.Attribute("objectid")
+                                               }).ToList(),
+
+                                 subdomains = (from sub in data.Elements("boardgamesubdomain")
+                                               select new BoardGameGeekPair
+                                               {
+                                                   value = sub.Value,
+                                                   objectID = (int)sub.Attribute("objectid")
+                                               }).ToList(),
+
+                                 versions = (from ver in data.Elements("boardgameversion")
+                                             select new BoardGameGeekPair
+                                             {
+                                                 value = ver.Value,
+                                                 objectID = (int)ver.Attribute("objectid")
+                                             }).ToList(),
+
+                                 polls = (from pol in data.Elements("poll")
+                                          select new BoardGamePoll
+                                          {
+                                              pollName = (string)pol.Attribute("name"),
+                                              pollTitle = (string)pol.Attribute("title"),
+                                              totalVotes = (int)pol.Attribute("totalvotes"),
+                                              resultsList = (from res in data.Elements("results")
+                                                             select new BoardGamePollResult
+                                                             {
+                                                                 responseValue = (string)res.Attribute("value"),
+                                                                 voteCount = (int) res.Attribute("numvotes")
+                                                             }).ToList()
+                                          }).ToList()
                              };
 
             return boardgames.ToList();
