@@ -8,7 +8,12 @@ This is a .NET library that aims to help developers intergrate the BoardGameGeek
 
 See http://www.boardgamegeek.com/xmlapi for more info on the library I'm creating.
 
-Current Functionality
----------------------
+Functionality
+-------------
 
-Search is currently working, next up is boardgame retreival.
+- [x] Search
+- [x] Search with params
+- [x] Retreive boardgame(s)
+- [ ] Retreive boardgame(s) with params
+- [ ] Retreive users games
+- [ ] Retreive users games with params
