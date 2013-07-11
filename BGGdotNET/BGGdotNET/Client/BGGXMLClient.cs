@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 using BGGdotNET.Client;
 using BGGdotNET.Objects;
-using BGGdotNET.Enums;
+using BGGdotNET.Settings;
 using System.Globalization;
 
 namespace BGGdotNET.Client

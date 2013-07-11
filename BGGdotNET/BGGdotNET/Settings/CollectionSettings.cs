@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BGGdotNET.Enums
+namespace BGGdotNET.Settings
 {
     /// <summary>
     /// CollectionSettings are used to filter what is returned when enquiring on a user collection.

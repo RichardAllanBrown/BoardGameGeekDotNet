@@ -5,7 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using BGGdotNET.Client;
-using BGGdotNET.Enums;
+using BGGdotNET.Settings;
 
 namespace BGGdotNET_Unit
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BGGdotNET.Enums
+namespace BGGdotNET.Settings
 {
     /// <summary>
     /// This class is used to store settings for the getBoardGame client call

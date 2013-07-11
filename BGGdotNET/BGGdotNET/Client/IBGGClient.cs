@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 using BGGdotNET.Objects;
-using BGGdotNET.Enums;
+using BGGdotNET.Settings;
 
 namespace BGGdotNET.Client
 {
