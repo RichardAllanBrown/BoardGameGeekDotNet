@@ -43,16 +43,16 @@
     <Compile Include="Client\IBGGClient.cs" />
     <Compile Include="Enums\BoardGameSettings.cs" />
     <Compile Include="Enums\SearchSettings.cs" />
-    <Compile Include="Objects\BGSearchResult.cs" />
-    <Compile Include="Objects\BoardGame.cs" />
-    <Compile Include="Objects\BoardGameComment.cs" />
-    <Compile Include="Objects\BoardGameGeekPair.cs" />
-    <Compile Include="Objects\BoardGameName.cs" />
-    <Compile Include="Objects\BoardGamePoll.cs" />
+    <Compile Include="Objects\Search\BGSearchResult.cs" />
+    <Compile Include="Objects\Search\BoardGame.cs" />
+    <Compile Include="Objects\BoardGame\BoardGameComment.cs" />
+    <Compile Include="Objects\BoardGame\BoardGameGeekPair.cs" />
+    <Compile Include="Objects\BoardGame\BoardGameName.cs" />
+    <Compile Include="Objects\BoardGame\BoardGamePoll.cs" />
     <Compile Include="Client\BGGXMLClient.cs" />
-    <Compile Include="Objects\BoardGameStats.cs" />
-    <Compile Include="Objects\GeekList.cs" />
-    <Compile Include="Objects\GeekListItem.cs" />
+    <Compile Include="Objects\BoardGame\BoardGameStats.cs" />
+    <Compile Include="Objects\GeekList\GeekList.cs" />
+    <Compile Include="Objects\GeekList\GeekListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

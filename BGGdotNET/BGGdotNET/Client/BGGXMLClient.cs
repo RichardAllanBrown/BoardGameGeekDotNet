@@ -273,6 +273,11 @@ namespace BGGdotNET.Client
         {
             string requestUrl = url + "/geeklist/" + listID;
 
+            if (settings == commentSettings.fetch)
+            {
+                requestUrl = requestUrl + "?comments=1";
+            }
+
             XDocument result = XDocument.Load(requestUrl);
 
             var geekListResult = from data in result.Descendants("geeklist")
