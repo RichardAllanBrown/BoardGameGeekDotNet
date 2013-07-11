@@ -14,6 +14,10 @@ Functionality
 - [x] Search
 - [x] Search with params
 - [x] Retreive boardgame(s)
-- [ ] Retreive boardgame(s) with params
+- [x] Retreive boardgame(s) with params
 - [ ] Retreive users games
 - [ ] Retreive users games with params
+- [x] Retreive GeekList
+- [x] Retreive GeekList with params
+- [ ] Retreive forum posts
+- [ ] Retreive forum posts with params
