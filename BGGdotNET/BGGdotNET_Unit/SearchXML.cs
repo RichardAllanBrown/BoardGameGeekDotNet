@@ -45,7 +45,7 @@ namespace BGGdotNET_Unit
             IBGGClient client = new BGGXMLClient();
             
             // Act
-            var result = client.searchBoardGame(searchSettings.exact, "7 Wonders");
+            var result = client.searchBoardGame(SearchSettings.exact, "7 Wonders");
 
             // Assert
             Assert.IsTrue(result.Any(x => x.name == "7 Wonders"));
@@ -58,7 +58,7 @@ namespace BGGdotNET_Unit
             IBGGClient client = new BGGXMLClient();
             
             // Act
-            var result = client.searchBoardGame(searchSettings.exact, "7 Wonders");
+            var result = client.searchBoardGame(SearchSettings.exact, "7 Wonders");
 
             // Assert
             Assert.AreEqual(1, result.Count);

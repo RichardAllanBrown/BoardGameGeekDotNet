@@ -208,12 +208,12 @@ namespace BGGdotNET.Client
             string searchInput = input;
             List<BGSearchResult> results;
 
-            results = searchBoardGame(searchSettings.notExact, input);
+            results = searchBoardGame(SearchSettings.notExact, input);
 
             return results;
         }
 
-        public List<BGSearchResult> searchBoardGame(searchSettings settings, string searchInput)
+        public List<BGSearchResult> searchBoardGame(SearchSettings settings, string searchInput)
         {
             //All spaces must be converted to "%20" for the API
             searchInput.Replace(" ", "%20");
@@ -221,7 +221,7 @@ namespace BGGdotNET.Client
             string requestUrl = url + "/search" + "?search=" + searchInput;
 
             //The exact argument will only return a single search result
-            if (settings == searchSettings.exact)
+            if (settings == SearchSettings.exact)
             {
                 requestUrl = requestUrl + "&exact=1";
             }

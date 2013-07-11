@@ -16,6 +16,6 @@ namespace BGGdotNET.Client
 
         //Search functionality
         List<BGSearchResult> searchBoardGame(string searchInput);
-        List<BGSearchResult> searchBoardGame(searchSettings settings, string searchInput);
+        List<BGSearchResult> searchBoardGame(SearchSettings settings, string searchInput);
     }
 }

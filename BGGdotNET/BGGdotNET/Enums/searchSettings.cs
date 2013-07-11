@@ -5,5 +5,5 @@ using System.Text;
 
 namespace BGGdotNET.Enums
 {
-    public enum searchSettings { exact, notExact };
+    public enum SearchSettings { exact, notExact };
 }
