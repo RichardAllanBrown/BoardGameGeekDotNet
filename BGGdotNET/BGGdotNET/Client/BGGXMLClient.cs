@@ -264,6 +264,11 @@ namespace BGGdotNET.Client
             return searchResults.ToList();
         }
 
+        public GeekList getGeekList(int listID)
+        {
+            return getGeekList(commentSettings.none, listID);
+        }
+
         public GeekList getGeekList(commentSettings settings, int listID)
         {
             string requestUrl = url + "/geeklist/" + listID;

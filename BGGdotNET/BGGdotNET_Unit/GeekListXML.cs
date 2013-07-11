@@ -20,7 +20,7 @@ namespace BGGdotNET_Unit
             IBGGClient client = new BGGXMLClient();
 
             // Act
-            var result = client.getGeekList(commentSettings.none, 11205);
+            var result = client.getGeekList(11205);
 
             // Assert
             Assert.AreEqual(11205, result.id);

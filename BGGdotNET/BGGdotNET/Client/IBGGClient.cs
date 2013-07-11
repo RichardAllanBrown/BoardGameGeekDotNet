@@ -20,5 +20,6 @@ namespace BGGdotNET.Client
 
         //GeekList Functionality
         GeekList getGeekList(commentSettings settings, int listID);
+        GeekList getGeekList(int listID);
     }
 }
