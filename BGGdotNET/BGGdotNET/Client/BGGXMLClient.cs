@@ -291,6 +291,14 @@ namespace BGGdotNET.Client
                                      thumbs = int.Parse(data.Element("thumbs").Value),
                                      title = data.Element("title").Value,
                                      userName = data.Element("username").Value,
+                                     
+                                     comments = (from com in data.Descendants("comment")
+                                                 select new GeekListComment
+                                                 {
+                                                     username = com.Attribute("username").Value,
+                                                     thumbs = int.Parse(com.Attribute("thumbs").Value),
+                                                     commentText = com.Value
+                                                 }).ToList(),
 
                                      items = (from it in data.Descendants("item")
                                              select new GeekListItem
@@ -302,7 +310,14 @@ namespace BGGdotNET.Client
                                                  objectName = it.Attribute("objectname").Value,
                                                  userName = it.Attribute("username").Value,
                                                  thumbs = int.Parse(it.Attribute("thumbs").Value),
-                                                 imageID = int.Parse(it.Attribute("imageid").Value)
+                                                 imageID = int.Parse(it.Attribute("imageid").Value),
+                                                 comments = (from com in data.Descendants("comment")
+                                                             select new GeekListComment
+                                                             {
+                                                                 username = com.Attribute("username").Value,
+                                                                 thumbs = int.Parse(com.Attribute("thumbs").Value),
+                                                                 commentText = com.Value
+                                                             }).ToList()
                                              }).ToList()
                                  };
 
