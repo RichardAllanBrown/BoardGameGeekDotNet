@@ -9,7 +9,7 @@ namespace BGGdotNET.Objects
     {
         public string objecttype { get; set; }
         public int objectID { get; set; }
-        public string sybType { get; set; }
+        public string subType { get; set; }
         public int collID { get; set; }
         public string name { get; set; }
         public int yearPublished { get; set; }
@@ -30,6 +30,7 @@ namespace BGGdotNET.Objects
 
         //User status
         public int own { get; set; }
+        public int prevOwned { get; set; }
         public int forTrade { get; set; }
         public int want { get; set; }
         public int wantToPlay { get; set; }

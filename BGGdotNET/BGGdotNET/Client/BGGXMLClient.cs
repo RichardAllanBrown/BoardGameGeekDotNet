@@ -323,5 +323,43 @@ namespace BGGdotNET.Client
 
             return geekListResult.FirstOrDefault();
         }
+
+        public List<CollectionItem> getUserCollection(string username)
+        {
+            string requestUrl = url + "/collection/" + username;
+
+            XDocument result = XDocument.Load(requestUrl);
+
+            var collection = from coll in result.Descendants("item")
+                             select new CollectionItem
+                             {
+                                 objecttype = coll.Attribute("objecttype").Value,
+                                 objectID = int.Parse(coll.Attribute("objectid").Value),
+                                 subType = coll.Attribute("subtype").Value,
+                                 collID = int.Parse(coll.Attribute("collid").Value),
+                                 name = coll.Element("name").Value,
+                                 yearPublished = int.Parse(coll.Element("yearpublished").Value),
+                                 image = coll.Element("image").Value,
+                                 thumbnail = coll.Element("thumbnail").Value,
+
+                                 minPlayers = int.Parse(coll.Element("stats").Attribute("minplayers").Value),
+                                 maxPlayers = int.Parse(coll.Element("stats").Attribute("maxplayers").Value),
+                                 numOwned = int.Parse(coll.Element("stats").Attribute("numowned").Value),
+
+                                 userRated = int.Parse(coll.Element("stats").Element("rating").Element("usersrated").Attribute("value").Value),
+
+                                 own = int.Parse(coll.Element("status").Attribute("own").Value),
+                                 prevOwned = int.Parse(coll.Element("status").Attribute("prevowned").Value),
+                                 forTrade = int.Parse(coll.Element("status").Attribute("fortrade").Value),
+                                 want = int.Parse(coll.Element("status").Attribute("want").Value),
+                                 wantToPlay = int.Parse(coll.Element("status").Attribute("wanttoplay").Value),
+                                 wantToBuy = int.Parse(coll.Element("status").Attribute("wanttobuy").Value),
+                                 wishlist = int.Parse(coll.Element("status").Attribute("wishlist").Value),
+                                 preOrdered = int.Parse(coll.Element("status").Attribute("preordered").Value),
+                                 numPlays = int.Parse(coll.Element("numplays").Value)
+                             };
+
+            return collection.ToList();
+        }
     }
 }

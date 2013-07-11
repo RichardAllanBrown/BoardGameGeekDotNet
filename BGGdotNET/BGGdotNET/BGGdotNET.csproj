@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\IBGGClient.cs" />
-    <Compile Include="Objects\CollectionItem.cs" />
+    <Compile Include="Objects\Collection\CollectionItem.cs" />
     <Compile Include="Settings\BoardGameSettings.cs" />
     <Compile Include="Settings\CollectionSettings.cs" />
     <Compile Include="Settings\SettingEnums.cs" />
