@@ -15,7 +15,7 @@ namespace BGGdotNET.Client
     {
         private string url = "http://www.boardgamegeek.com/xmlapi";
 
-        public List<BoardGame> getBoardGame(params int[] gameIDs)
+        public List<BoardGame> getBoardGame(BoardGameSettings settings, params int[] gameIDs)
         {
             StringBuilder sb = new StringBuilder(url);
 
@@ -24,6 +24,12 @@ namespace BGGdotNET.Client
             foreach(int parm in gameIDs)
             {
                 sb.Append(parm);
+
+                //Game numbers need to be delimited by commas if there are many
+                if (gameIDs.Length > 0 && parm != gameIDs[gameIDs.Length - 1])
+                {
+                    sb.Append(",");
+                }
             }
 
             string requestUrl = sb.ToString();

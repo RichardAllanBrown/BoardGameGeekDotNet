@@ -22,6 +22,15 @@ namespace BGGdotNET_Unit
         }
 
         [TestMethod]
+        public void search_WithDefaultSettings_ReturnsManyGamesWithRightNames()
+        {
+            IBGGClient client = new BGGXMLClient();
+            var result = client.searchBoardGame("7 Wonders");
+
+            Assert.IsTrue(1 < result.Count(x => x.name.Contains("7 Wonders")));
+        }
+
+        [TestMethod]
         public void search_WithExact_ReturnsCorrectGame()
         {
             IBGGClient client = new BGGXMLClient();

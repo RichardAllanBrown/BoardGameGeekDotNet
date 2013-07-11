@@ -12,6 +12,7 @@ namespace BGGdotNET.Client
     {
         //Fetch specific boardgame methods
         List<BoardGame> getBoardGame(params int[] gameIDs);
+        List<BoardGame> getBoardGame(BoardGameSettings settings, params int[] gameIDs);
 
         //Search functionality
         List<BGSearchResult> searchBoardGame(string searchInput);

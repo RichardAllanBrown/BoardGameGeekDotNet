@@ -20,5 +20,14 @@ namespace BGGdotNET_Unit
 
             Assert.AreEqual(103885, result[0].ObjectID);
         }
+
+        [TestMethod]
+        public void boardgame_DefaultSettings_ReturnsManyGames()
+        {
+            IBGGClient client = new BGGXMLClient();
+            List<BoardGame> result = client.getBoardGame(103885, 98778, 129622);
+
+            Assert.AreEqual(3, result.Count);
+        }
     }
 }
