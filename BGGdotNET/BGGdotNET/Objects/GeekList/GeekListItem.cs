@@ -18,5 +18,6 @@ namespace BGGdotNET.Objects
         public int thumbs { get; set; }
         public int imageID { get; set; }
         public string body { get; set; }
+        public List<GeekListComment> comments { get; set; }
     }
 }

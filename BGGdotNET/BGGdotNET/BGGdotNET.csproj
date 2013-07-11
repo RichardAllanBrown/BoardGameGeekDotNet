@@ -43,6 +43,7 @@
     <Compile Include="Client\IBGGClient.cs" />
     <Compile Include="Enums\BoardGameSettings.cs" />
     <Compile Include="Enums\SearchSettings.cs" />
+    <Compile Include="Objects\GeekList\GeekListComment.cs" />
     <Compile Include="Objects\Search\BGSearchResult.cs" />
     <Compile Include="Objects\Search\BoardGame.cs" />
     <Compile Include="Objects\BoardGame\BoardGameComment.cs" />

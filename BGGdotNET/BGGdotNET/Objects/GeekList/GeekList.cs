@@ -17,6 +17,7 @@ namespace BGGdotNET.Objects
         public string userName { get; set; }
         public string title { get; set; }
         public string description { get; set; }
+        public List<GeekListComment> comments { get; set; }
         public List<GeekListItem> items { get; set; }
     }
 }
