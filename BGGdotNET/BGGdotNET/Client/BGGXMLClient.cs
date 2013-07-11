@@ -8,6 +8,7 @@ using System.Xml.Linq;
 using BGGdotNET.Client;
 using BGGdotNET.Objects;
 using BGGdotNET.Enums;
+using System.Globalization;
 
 namespace BGGdotNET.Client
 {
@@ -261,6 +262,41 @@ namespace BGGdotNET.Client
                                 };
 
             return searchResults.ToList();
+        }
+
+        public GeekList getGeekList(commentSettings settings, int listID)
+        {
+            string requestUrl = url + "/geeklist/" + listID;
+
+            XDocument result = XDocument.Load(requestUrl);
+
+            var geekListResult = from data in result.Descendants("geeklist")
+                                 select new GeekList
+                                 {
+                                     description = data.Element("description").Value,
+                                     id = (int)data.Attribute("id"),
+                                     numItems = int.Parse(data.Element("numitems").Value),
+                                     editDateTimestamp = data.Element("editdate_timestamp").Value,
+                                     postDateTimestamp = data.Element("postdate_timestamp").Value,
+                                     thumbs = int.Parse(data.Element("thumbs").Value),
+                                     title = data.Element("title").Value,
+                                     userName = data.Element("username").Value,
+
+                                     items = (from it in data.Descendants("item")
+                                             select new GeekListItem
+                                             {
+                                                 id = int.Parse(it.Attribute("id").Value),
+                                                 objectType = it.Attribute("objecttype").Value,
+                                                 subType = it.Attribute("subtype").Value,
+                                                 objectID = int.Parse(it.Attribute("objectid").Value),
+                                                 objectName = it.Attribute("objectname").Value,
+                                                 userName = it.Attribute("username").Value,
+                                                 thumbs = int.Parse(it.Attribute("thumbs").Value),
+                                                 imageID = int.Parse(it.Attribute("imageid").Value)
+                                             }).ToList()
+                                 };
+
+            return geekListResult.FirstOrDefault();
         }
     }
 }

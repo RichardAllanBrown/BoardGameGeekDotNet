@@ -7,6 +7,7 @@ namespace BGGdotNET.Objects
 {
     public class BoardGameStats
     {
+        public DateTime? statDate { get; set; }
         public int usersRated { get; set; }
         public float average { get; set; }
         public float bayesAverage { get; set; }
