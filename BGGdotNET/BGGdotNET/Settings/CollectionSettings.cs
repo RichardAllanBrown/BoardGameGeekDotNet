@@ -18,7 +18,7 @@ namespace BGGdotNET.Settings
         /// <summary>
         /// withListPriority rerturns games which have the set list priority, valid number is between 1-5
         /// </summary>
-        public int withListPriority { get; set; }
+        public int wishListPriority { get; set; }
 
         /// <summary>
         /// minRating only returns games equal or greater than what the user gave it

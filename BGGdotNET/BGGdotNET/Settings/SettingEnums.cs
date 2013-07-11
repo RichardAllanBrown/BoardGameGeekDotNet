@@ -19,7 +19,7 @@ namespace BGGdotNET.Settings
         /// <summary>
         /// Choosing a usercollection setting will limit what is returned for a user.
         /// </summary>
-        public enum userCollection { own, rated, played, comment, trade, want, wishlist, wantToPlay, preOwned, preOrdered, hasParts, wantParts, notifyContent, notifySale, notifyAuction, wishlistPriority }
+        public enum userCollection { own, rated, played, comment, trade, want, wishlist, wantToPlay, wantToBuy, preOwned, preOrdered, hasParts, wantParts, notifyContent, notifySale, notifyAuction, wishlistPriority, all }
 
         /// <summary>
         /// Search settings can be exact which only returns one, when it's exactly right.

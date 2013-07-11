@@ -23,6 +23,7 @@ namespace BGGdotNET.Client
         GeekList getGeekList(int listID);
 
         //Retrieve collection methods
+        List<CollectionItem> getUserCollection(CollectionSettings settings, string username);
         List<CollectionItem> getUserCollection(string username);
     }
 }
