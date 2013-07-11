@@ -50,6 +50,7 @@
     <Compile Include="Objects\BoardGameName.cs" />
     <Compile Include="Objects\BoardGamePoll.cs" />
     <Compile Include="Client\BGGXMLClient.cs" />
+    <Compile Include="Objects\BoardGameStats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

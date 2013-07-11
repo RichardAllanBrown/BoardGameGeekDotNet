@@ -32,6 +32,7 @@ namespace BGGdotNET.Objects
         public List<BoardGameGeekPair> versions { get; set; }
         public List<BoardGamePoll> polls { get; set; }
         public List<BoardGameComment> comments { get; set; }
+        public List<BoardGameStats> statistics { get; set; }
 
         public string getPrimaryName()
         {

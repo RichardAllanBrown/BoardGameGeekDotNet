@@ -185,6 +185,30 @@ namespace BGGdotNET.Client
                                                  comment = com.Value
                                              }).ToList(),
 
+                                 statistics = (from stat in data.Element("statistics").Elements("ratings")
+                                               select new BoardGameStats
+                                               {
+                                                   average = (float)stat.Element("average"),
+                                                   averageWeight = (float)stat.Element("averageweight"),
+                                                   bayesAverage = (float)stat.Element("bayesaverage"),
+                                                   median = (float)stat.Element("median"),
+                                                   numComments = (int)stat.Element("numcomments"),
+                                                   numWeights = (int)stat.Element("numweights"),
+                                                   owned = (int)stat.Element("owned"),
+                                                   trading = (int)stat.Element("trading"),
+                                                   standardDeviation = (float)stat.Element("stddev"),
+                                                   usersRated = (int)stat.Element("usersrated"),
+                                                   wanting = (int)stat.Element("wanting"),
+                                                   wishing = (int)stat.Element("wishing"),
+                                                   ranks = (from ranks in stat.Elements("ranks")
+                                                            select new BoardGameRank
+                                                            {
+                                                                name = (string)ranks.Attribute("name"),
+                                                                friendlyName = (string)ranks.Attribute("friendlyname"),
+                                                                type = (string)ranks.Attribute("type")
+                                                            }).ToList()
+                                               }).ToList(),
+
                                  polls = (from pol in data.Elements("poll")
                                           select new BoardGamePoll
                                           {
