@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using BGGdotNET.Client;
 using BGGdotNET.Objects;
+using BGGdotNET.Enums;
 
 namespace BGGdotNET_Unit
 {
@@ -15,28 +16,44 @@ namespace BGGdotNET_Unit
         [TestMethod]
         public void boardgame_DefaultSettings_ReturnsSingleGame()
         {
+            // Arrange
             IBGGClient client = new BGGXMLClient();
+            
+            // Act
             List<BoardGame> result = client.getBoardGame(103885);
 
+            // Assert
             Assert.AreEqual(103885, result[0].ObjectID);
         }
 
         [TestMethod]
         public void boardgame_DefaultSettings_ReturnsManyGames()
         {
+            // Arrange
             IBGGClient client = new BGGXMLClient();
+            
+            // Act
             List<BoardGame> result = client.getBoardGame(103885, 98778, 129622);
 
+            // Assert
             Assert.AreEqual(3, result.Count);
         }
 
         [TestMethod]
         public void boardgame_WithReturnComments_ReturnsComments()
         {
+            // Arrange
             IBGGClient client = new BGGXMLClient();
+            BoardGameSettings settings = new BoardGameSettings()
+            {
+                commSets = commentSettings.fetch
+            };
 
+            // Act
+            List<BoardGame> result = client.getBoardGame(settings, 98778);
 
-            List<BoardGame> result = client.getBoardGame();
+            // Assert
+            Assert.IsTrue(result.Any(x => x.comments.count > 0));
         }
     }
 }
