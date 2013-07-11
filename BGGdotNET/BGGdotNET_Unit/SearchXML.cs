@@ -15,36 +15,52 @@ namespace BGGdotNET_Unit
         [TestMethod]
         public void search_WithDefaultSettings_ReturnsAGameWithRightNames()
         {
+            // Arrange
             IBGGClient client = new BGGXMLClient();
+            
+            // Act
             var result = client.searchBoardGame("7 Wonders");
 
+            // Assert
             Assert.IsTrue(result.Any(x => x.name == "7 Wonders"));
         }
 
         [TestMethod]
         public void search_WithDefaultSettings_ReturnsManyGamesWithRightNames()
         {
+            // Arrange
             IBGGClient client = new BGGXMLClient();
+            
+            // Act
             var result = client.searchBoardGame("7 Wonders");
 
+            // Assert
             Assert.IsTrue(1 < result.Count(x => x.name.Contains("7 Wonders")));
         }
 
         [TestMethod]
         public void search_WithExact_ReturnsCorrectGame()
         {
+            // Arrange
             IBGGClient client = new BGGXMLClient();
+            
+            // Act
             var result = client.searchBoardGame(searchSettings.exact, "7 Wonders");
 
+            // Assert
             Assert.IsTrue(result.Any(x => x.name == "7 Wonders"));
         }
 
         [TestMethod]
         public void search_WithExact_ReturnsOneGame()
         {
+            // Arrange
             IBGGClient client = new BGGXMLClient();
+            
+            // Act
             var result = client.searchBoardGame(searchSettings.exact, "7 Wonders");
 
+            // Assert
             Assert.AreEqual(1, result.Count);
         }
     }
