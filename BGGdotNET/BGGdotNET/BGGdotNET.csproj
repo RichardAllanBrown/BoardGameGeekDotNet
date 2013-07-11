@@ -45,6 +45,7 @@
     <Compile Include="Enums\searchSettings.cs" />
     <Compile Include="Objects\BGSearchResult.cs" />
     <Compile Include="Objects\BoardGame.cs" />
+    <Compile Include="Objects\BoardGameComment.cs" />
     <Compile Include="Objects\BoardGameGeekPair.cs" />
     <Compile Include="Objects\BoardGameName.cs" />
     <Compile Include="Objects\BoardGamePoll.cs" />

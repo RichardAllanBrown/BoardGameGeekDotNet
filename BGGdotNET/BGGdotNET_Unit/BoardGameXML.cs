@@ -53,7 +53,7 @@ namespace BGGdotNET_Unit
             List<BoardGame> result = client.getBoardGame(settings, 98778);
 
             // Assert
-            Assert.IsTrue(result.Any(x => x.comments.count > 0));
+            Assert.IsTrue(result[0].comments.Count > 0);
         }
     }
 }

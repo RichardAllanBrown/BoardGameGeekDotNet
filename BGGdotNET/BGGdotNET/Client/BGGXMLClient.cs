@@ -178,6 +178,13 @@ namespace BGGdotNET.Client
                                                  objectID = (int)ver.Attribute("objectid")
                                              }).ToList(),
 
+                                 comments = (from com in data.Elements("comment")
+                                             select new BoardGameComment
+                                             {
+                                                 username = (string)com.Attribute("username"),
+                                                 comment = com.Value
+                                             }).ToList(),
+
                                  polls = (from pol in data.Elements("poll")
                                           select new BoardGamePoll
                                           {

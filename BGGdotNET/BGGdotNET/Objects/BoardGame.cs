@@ -31,6 +31,7 @@ namespace BGGdotNET.Objects
         public List<BoardGameGeekPair> subdomains { get; set; }
         public List<BoardGameGeekPair> versions { get; set; }
         public List<BoardGamePoll> polls { get; set; }
+        public List<BoardGameComment> comments { get; set; }
 
         public string getPrimaryName()
         {
