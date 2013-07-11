@@ -29,5 +29,14 @@ namespace BGGdotNET_Unit
 
             Assert.AreEqual(3, result.Count);
         }
+
+        [TestMethod]
+        public void boardgame_WithReturnComments_ReturnsComments()
+        {
+            IBGGClient client = new BGGXMLClient();
+
+
+            List<BoardGame> result = client.getBoardGame();
+        }
     }
 }

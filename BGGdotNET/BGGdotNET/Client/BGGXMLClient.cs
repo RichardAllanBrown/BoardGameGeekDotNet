@@ -15,6 +15,11 @@ namespace BGGdotNET.Client
     {
         private string url = "http://www.boardgamegeek.com/xmlapi";
 
+        public List<BoardGame> getBoardGame(params int[] gameIDs)
+        {
+            return getBoardGame(null, gameIDs);
+        }
+
         public List<BoardGame> getBoardGame(BoardGameSettings settings, params int[] gameIDs)
         {
             StringBuilder sb = new StringBuilder(url);
@@ -29,6 +34,54 @@ namespace BGGdotNET.Client
                 if (gameIDs.Length > 0 && parm != gameIDs[gameIDs.Length - 1])
                 {
                     sb.Append(",");
+                }
+            }
+
+            if (settings != null)
+            {
+                sb.Append("?");
+
+                if (settings.commSets == commentSettings.fetch)
+                {
+                    sb.Append("comments=1");
+                }
+                else
+                {
+                    sb.Append("comments=0");
+                }
+
+                sb.Append("&");
+
+                if (settings.statSets == statsSettings.current)
+                {
+                    sb.Append("stats=1");
+                }
+                else if (settings.statSets == statsSettings.histroic)
+                {
+                    sb.Append("historical=1");
+
+                    if (settings.historicStatsFrom != null || settings.historicStatsTo != null)
+                    {
+                        if (settings.historicStatsTo == null)
+                        {
+                            settings.historicStatsTo = DateTime.Now;
+                            
+                        }
+
+                        if (settings.historicStatsFrom == null)
+                        {
+                            settings.historicStatsFrom = new DateTime(2006, 03, 18);
+                        }
+
+                        DateTime to = (DateTime)settings.historicStatsTo;
+                        DateTime from = (DateTime)settings.historicStatsFrom;
+
+                        sb.Append("&from=" + from.ToString("yyyy-MM-dd") + "&to=" + to.ToString("yyy-MM-dd"));
+                    }
+                }
+                else
+                {
+                    sb.Append("stats=0");
                 }
             }
 
