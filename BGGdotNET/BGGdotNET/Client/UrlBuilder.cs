@@ -99,7 +99,133 @@ namespace BGGdotNET.Client
 
         public string buildUserCollectionUrl(Settings.CollectionSettings settings, string username)
         {
-            throw new NotImplementedException();
+            StringBuilder sb = new StringBuilder(url);
+
+            sb.Append("/collection/");
+            sb.Append(username);
+
+            if (settings != null)
+            {
+                List<string> parameters = new List<string>();
+
+                switch (settings.collectionFilter)
+                {
+                    case userCollection.own:
+                        parameters.Add("own=1");
+                        break;
+
+                    case userCollection.rated:
+                        parameters.Add("rated=1");
+                        break;
+
+                    case userCollection.played:
+                        parameters.Add("played=1");
+                        break;
+
+                    case userCollection.comment:
+                        parameters.Add("comment=1");
+                        break;
+
+                    case userCollection.trade:
+                        parameters.Add("trade=1");
+                        break;
+
+                    case userCollection.want:
+                        parameters.Add("want=1");
+                        break;
+
+                    case userCollection.wishlist:
+                        parameters.Add("wishlist=1");
+                        break;
+
+                    case userCollection.wantToPlay:
+                        parameters.Add("wanttoplay=1");
+                        break;
+
+                    case userCollection.wantToBuy:
+                        parameters.Add("wanttobuy=1");
+                        break;
+
+                    case userCollection.preOwned:
+                        parameters.Add("prevowned=1");
+                        break;
+
+                    case userCollection.preOrdered:
+                        parameters.Add("preordered=1");
+                        break;
+
+                    case userCollection.hasParts:
+                        parameters.Add("hasparts=1");
+                        break;
+
+                    case userCollection.wantParts:
+                        parameters.Add("wantparts=1");
+                        break;
+
+                    case userCollection.notifyContent:
+                        parameters.Add("notifycontent=1");
+                        break;
+
+                    case userCollection.notifySale:
+                        parameters.Add("notifysale=1");
+                        break;
+
+                    case userCollection.notifyAuction:
+                        parameters.Add("notifyauction=1");
+                        break;
+
+                    case userCollection.wishlistPriority:
+                        parameters.Add("wishlistpriority=" + settings.wishListPriority);
+                        break;
+                }
+
+                if (settings.maxBGGRating > 0)
+                {
+                    parameters.Add("maxbggrating=" + settings.maxBGGRating);
+                }
+
+                if (settings.maxPlays > 0)
+                {
+                    parameters.Add("maxplays=" + settings.maxPlays);
+                }
+
+                if (settings.maxRating > 0)
+                {
+                    parameters.Add("maxrating=" + settings.maxRating);
+                }
+
+                if (settings.minBGGRating > 0)
+                {
+                    parameters.Add("minbggrating=" + settings.minBGGRating);
+                }
+
+                if (settings.minPlays > 0)
+                {
+                    parameters.Add("minplays=" + settings.minPlays);
+                }
+
+                if (settings.minRating > 0)
+                {
+                    parameters.Add("minrating=" + settings.minRating);
+                }
+
+                if (parameters.Count > 0)
+                {
+                    sb.Append("?");
+                }
+
+                foreach (string arg in parameters)
+                {
+                    sb.Append(arg);
+
+                    if (parameters.Count >= 2 && arg != parameters[parameters.Count - 1])
+                    {
+                        sb.Append("&");
+                    }
+                }
+            }
+
+            return sb.ToString();
         }
     }
 }
