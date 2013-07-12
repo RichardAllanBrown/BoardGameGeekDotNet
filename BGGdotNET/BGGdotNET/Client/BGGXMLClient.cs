@@ -8,13 +8,13 @@ using System.Xml.Linq;
 using BGGdotNET.Client;
 using BGGdotNET.Objects;
 using BGGdotNET.Settings;
-using System.Globalization;
 
 namespace BGGdotNET.Client
 {
     public class BGGXMLClient : IBGGClient
     {
         private string url = "http://www.boardgamegeek.com/xmlapi";
+        private IUrlBuilder builder = new UrlBuilder();
 
         public List<BoardGame> getBoardGame(params int[] gameIDs)
         {
@@ -240,16 +240,7 @@ namespace BGGdotNET.Client
 
         public List<BGSearchResult> searchBoardGame(SearchSettings settings, string searchInput)
         {
-            //All spaces must be converted to "%20" for the API
-            searchInput.Replace(" ", "%20");
-
-            string requestUrl = url + "/search" + "?search=" + searchInput;
-
-            //The exact argument will only return a single search result
-            if (settings == SearchSettings.exact)
-            {
-                requestUrl = requestUrl + "&exact=1";
-            }
+            string requestUrl = builder.buildSearchUrl(settings, searchInput);
 
             XDocument result = XDocument.Load(requestUrl);
 

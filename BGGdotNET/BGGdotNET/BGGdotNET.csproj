@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\IBGGClient.cs" />
+    <Compile Include="Client\IUrlBuilder.cs" />
+    <Compile Include="Client\UrlBuilder.cs" />
     <Compile Include="Objects\Collection\CollectionItem.cs" />
     <Compile Include="Settings\BoardGameSettings.cs" />
     <Compile Include="Settings\CollectionSettings.cs" />
