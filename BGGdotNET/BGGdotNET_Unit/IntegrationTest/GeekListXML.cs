@@ -8,7 +8,7 @@ using BGGdotNET.Client;
 using BGGdotNET.Objects;
 using BGGdotNET.Settings;
 
-namespace BGGdotNET_Unit
+namespace BGGdotNET_Test
 {
     [TestClass]
     public class GeekListXML

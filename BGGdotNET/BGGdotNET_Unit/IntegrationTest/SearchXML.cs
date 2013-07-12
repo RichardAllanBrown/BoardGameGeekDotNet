@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BGGdotNET.Client;
 using BGGdotNET.Settings;
 
-namespace BGGdotNET_Unit
+namespace BGGdotNET_Test
 {
     [TestClass]
     public class SearchXML

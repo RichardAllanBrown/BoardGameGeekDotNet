@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGGdotNET", "BGGdotNET\BGGdotNET.csproj", "{3BB31884-D87C-45BE-8438-F82826C2A82E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGGdotNET_Unit", "BGGdotNET_Unit\BGGdotNET_Unit.csproj", "{DD8448D0-F000-4597-9936-0569A602D5D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGGdotNET_Test", "BGGdotNET_Unit\BGGdotNET_Test.csproj", "{DD8448D0-F000-4597-9936-0569A602D5D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBF391B2-0C92-4EB2-912F-C01B014B7487}"
 	ProjectSection(SolutionItems) = preProject

@@ -9,7 +9,7 @@
     <ProjectGuid>{DD8448D0-F000-4597-9936-0569A602D5D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BGGdotNET_Unit</RootNamespace>
+    <RootNamespace>BGGdotNET_Test</RootNamespace>
     <AssemblyName>BGGdotNET_Unit</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -45,11 +45,11 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoardGameXML.cs" />
-    <Compile Include="CollectionXML.cs" />
-    <Compile Include="GeekListXML.cs" />
+    <Compile Include="IntegrationTest\BoardGameXML.cs" />
+    <Compile Include="IntegrationTest\CollectionXML.cs" />
+    <Compile Include="IntegrationTest\GeekListXML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchXML.cs" />
+    <Compile Include="IntegrationTest\SearchXML.cs" />
     <Compile Include="UnitTest\UrlBuilderTest.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@ using BGGdotNET.Objects;
 using BGGdotNET.Settings;
 using BGGdotNET.Client;
 
-namespace BGGdotNET_Unit
+namespace BGGdotNET_Test
 {
     /// <summary>
     /// URLBuilderTest performs all unit testing on URLBuilder class, ensuring all url strings are returned as expected
