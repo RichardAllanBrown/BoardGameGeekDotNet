@@ -12,20 +12,20 @@ Current Functionality
 ---------------------
 
 - Search
-- Search with params
+- Search with settings
 - Retreive boardgame(s)
-- Retreive boardgame(s) with params
+- Retreive boardgame(s) with settings
 - Retreive GeekList
-- Retreive GeekList with params
+- Retreive GeekList with settings
 
 
 Future Functionality
 --------------------
 
 - Retreive forum posts
-- Retreive forum posts with params
+- Retreive forum posts with settings
 - Retreive users games
-- Retreive users games with params
+- Retreive users games with settings
 
 How To Use
 ----------
