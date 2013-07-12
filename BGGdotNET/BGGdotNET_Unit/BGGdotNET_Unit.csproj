@@ -50,6 +50,7 @@
     <Compile Include="GeekListXML.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchXML.cs" />
+    <Compile Include="UnitTest\UrlBuilderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BGGdotNET\BGGdotNET.csproj">

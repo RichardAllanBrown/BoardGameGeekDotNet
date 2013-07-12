@@ -262,12 +262,7 @@ namespace BGGdotNET.Client
 
         public GeekList getGeekList(commentSettings settings, int listID)
         {
-            string requestUrl = url + "/geeklist/" + listID;
-
-            if (settings == commentSettings.fetch)
-            {
-                requestUrl = requestUrl + "?comments=1";
-            }
+            string requestUrl = builder.buildGeekListUrl(settings, listID);
 
             XDocument result = XDocument.Load(requestUrl);
 
