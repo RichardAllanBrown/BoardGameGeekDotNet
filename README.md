@@ -43,4 +43,7 @@ List<BoardGame> boardGameDetals = client.getBoardGame(22334, 12343, 9873);
 //Fetch a GeekList by it's ID
 GeekList geekList = client.getGeekList(22564)
 
+//Search for games using a string
+List<CollectionItem> collection = client.getUserCollection("Rokusho");
+
 ```
