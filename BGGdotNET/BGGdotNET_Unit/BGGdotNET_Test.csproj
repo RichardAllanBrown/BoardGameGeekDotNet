@@ -54,6 +54,7 @@
     <Compile Include="IntegrationTest\SearchXML.cs" />
     <Compile Include="UnitTest\UrlBuilderTest.cs" />
     <Compile Include="UnitTest\XMLParserTest_List.cs" />
+    <Compile Include="UnitTest\XMLParserTest_Search.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BGGdotNET\BGGdotNET.csproj">
@@ -66,6 +67,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="TestData\GeekList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\Search.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
