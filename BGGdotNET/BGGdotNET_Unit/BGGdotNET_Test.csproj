@@ -53,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IntegrationTest\SearchXML.cs" />
     <Compile Include="UnitTest\UrlBuilderTest.cs" />
+    <Compile Include="UnitTest\XMLParserTest_BoardGame.cs" />
     <Compile Include="UnitTest\XMLParserTest_List.cs" />
     <Compile Include="UnitTest\XMLParserTest_Search.cs" />
   </ItemGroup>
@@ -63,7 +64,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TestData\BoardGame.xml" />
+    <Content Include="TestData\BoardGame.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="TestData\GeekListWithComments.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -12,7 +12,7 @@ using BGGdotNET.Objects;
 namespace BGGdotNET_Test.UnitTest
 {
     /// <summary>
-    /// Summary description for XMLParserTest_Search
+    /// Ensures the search XML is correctly parsed
     /// </summary>
     [TestClass]
     public class XMLParserTest_Search

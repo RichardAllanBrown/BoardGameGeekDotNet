@@ -38,7 +38,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_PostDate()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -54,7 +53,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_PostTimeStamp()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -70,7 +68,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_EditDate()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -86,7 +83,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_EditTimeStamp()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -102,7 +98,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_Thumbs()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -118,7 +113,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_NumItems()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -134,7 +128,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_Username()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -150,7 +143,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_Title()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
@@ -166,7 +158,6 @@ namespace BGGdotNET_Test.UnitTest
         public void geekListParse_NoComments_Description()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
