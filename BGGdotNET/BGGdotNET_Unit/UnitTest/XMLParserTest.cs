@@ -20,8 +20,10 @@ namespace BGGdotNET_Test.UnitTest
         public void TestMethod1()
         {
             // Arrange
+            string relativePath = "TestData/XML_SimpleGeekList.xml";
+            XDocument testData = XDocument.Load(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+
             IXMLParser parser = new XMLParser();
-            XDocument testData = XDocument.Load("/TestData/XML_SimpleGeekList.xml");
 
             // Act
             var result = parser.parseGeekListXML(testData);
