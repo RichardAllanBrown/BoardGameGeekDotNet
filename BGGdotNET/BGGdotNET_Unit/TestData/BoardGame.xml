@@ -1,0 +1,2558 @@
+﻿<boardgames termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+  <boardgame objectid="124742">
+    <yearpublished>2012</yearpublished>
+    <minplayers>2</minplayers>
+    <maxplayers>2</maxplayers>
+    <playingtime>45</playingtime>
+    <age>14</age>
+
+    <name primary="true" sortindex="1">Android: Netrunner</name>
+    <name  sortindex="1">安卓纪元：矩阵潜袭</name>
+
+    <description>Game description from the publisher&lt;br/&gt;&lt;br/&gt;Welcome to New Angeles, home of the Beanstalk. From our branch offices in this monument of human achievement, NBN proudly broadcasts all your favorite media programming. We offer fully comprehensive streaming in music and threedee, news and sitcoms, classic movies and sensies. We cover it all. Ours is a brave new age, and as humanity hurtles into space and the future with an astonishing series of new advances every day, NBN and our affiliates are keeping pace, bringing you all the vid that's fit to view.&lt;br/&gt;&lt;br/&gt;Android: Netrunner is an asymmetrical Living Card Game for two players. Set in the cyberpunk future of Android and Infiltration, the game pits a megacorporation and its massive resources against the subversive talents of lone runners.&lt;br/&gt;&lt;br/&gt;Corporations seek to score agendas by advancing them. Doing so takes time and credits. To buy the time and earn the credits they need, they must secure their servers and data forts with &amp;quot;ice&amp;quot;. These security programs come in different varieties, from simple barriers, to code gates and aggressive sentries. They serve as the corporation's virtual eyes, ears, and machine guns on the sprawling information superhighways of the network.&lt;br/&gt;&lt;br/&gt;In turn, runners need to spend their time and credits acquiring a sufficient wealth of resources, purchasing the necessary hardware, and developing suitably powerful ice-breaker programs to hack past corporate security measures. Their jobs are always a little desperate, driven by tight timelines, and shrouded in mystery. When a runner jacks-in and starts a run at a corporate server, he risks having his best programs trashed or being caught by a trace program and left vulnerable to corporate countermeasures. It's not uncommon for an unprepared runner to fail to bypass a nasty sentry and suffer massive brain damage as a result. Even if a runner gets through a data fort's defenses, there's no telling what it holds. Sometimes, the runner finds something of value. Sometimes, the best he can do is work to trash whatever the corporation was developing.&lt;br/&gt;&lt;br/&gt;The first player to seven points wins the game, but not likely before he suffers some brain damage or bad publicity.&lt;br/&gt;&lt;br/&gt;</description>
+
+    <thumbnail>http://cf.geekdo-images.com/images/pic1324609_t.jpg</thumbnail>
+    <image>http://cf.geekdo-images.com/images/pic1324609.jpg</image>
+
+    <boardgamepodcastepisode objectid="94542">+1 Int, January 2013: Warpcon preview, part 2</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99261">02 Agenda7 Netrunner Podcast is Online</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99260">03 Agenda7 Netrunner Podcast is Online</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99259">04 Agenda7 Netrunner Podcast is Online</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99258">05 Agenda7 Netrunner Podcast</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99257">06 Agenda7 Netrunner Podcast – Tournament Report</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99256">07 Agenda7 Netrunner Podcast – Genesis Cards 41-60</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99255">08 Agenda7 Netrunner Podcast &amp;ndash; Creation &amp;amp; Tournament</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99254">09 Agenda7 Netrunner Podcast</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99292">10 Agenda7 Netrunner Podcast &amp;ndash; Strategies &amp;amp; Rants</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="101392">11 Agenda7 Netrunner Podcast – Regionals and Future Proof</boardgamepodcastepisode>
+    <boardgamehonor objectid="20116">2012 Golden Geek Best 2-Player Board Game Nominee</boardgamehonor>
+    <boardgamehonor objectid="20119">2012 Golden Geek Best Card Game Nominee</boardgamehonor>
+    <boardgamehonor objectid="20988">2012 Golden Geek Best Card Game Winner</boardgamehonor>
+    <boardgamehonor objectid="20993">2012 Golden Geek Golden Geek Best 2-Player Board Game Winner</boardgamehonor>
+    <boardgamehonor objectid="22750">2012 Meeples&#039; Choice Nominee</boardgamehonor>
+    <boardgamepodcastepisode objectid="100992">5 Minute Initiative-Android: Netrunner</boardgamepodcastepisode>
+    <boardgamefamily objectid="17106">Android</boardgamefamily>
+    <boardgamepodcastepisode objectid="93301">Android: NetRunner</boardgamepodcastepisode>
+    <boardgameexpansion objectid="135103">Android: Netrunner - A Study in Static</boardgameexpansion>
+    <boardgameexpansion objectid="139596">Android: Netrunner - Creation and Control</boardgameexpansion>
+    <boardgameexpansion objectid="133500">Android: Netrunner - Cyber Exodus</boardgameexpansion>
+    <boardgameexpansion objectid="137863">Android: Netrunner - Future Proof</boardgameexpansion>
+    <boardgameexpansion objectid="136147">Android: Netrunner - Humanity&#039;s Shadow</boardgameexpansion>
+    <boardgameexpansion objectid="144640">Android: Netrunner - Mala Tempora</boardgameexpansion>
+    <boardgameexpansion objectid="142727">Android: Netrunner - Opening Moves</boardgameexpansion>
+    <boardgameexpansion objectid="143694">Android: Netrunner - Second Thoughts</boardgameexpansion>
+    <boardgameexpansion objectid="132005">Android: Netrunner - Trace Amount</boardgameexpansion>
+    <boardgameexpansion objectid="130806">Android: Netrunner - What Lies Ahead</boardgameexpansion>
+    <boardgamefamily objectid="18254">Android: Netrunner LCG</boardgamefamily>
+    <boardgameartist objectid="56728">Bruno Balixa</boardgameartist>
+    <boardgameartist objectid="20316">Ralph Beisner</boardgameartist>
+    <boardgamecategory objectid="1023">Bluffing</boardgamecategory>
+    <boardgamepodcastepisode objectid="90408">Board &amp;amp; Base E05: Got Pen And Paper?</boardgamepodcastepisode>
+    <boardgameartist objectid="66328">Del Borovic</boardgameartist>
+    <boardgamepodcastepisode objectid="102560">Breaking News — Episode 1</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102559">Breaking News — Episode 2</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102558">Breaking News — Episode 3</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102557">Breaking News — Episode 4</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102556">Breaking News — Episode 5</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102554">Breaking News — Episode 7</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102553">Breaking News — Episode 8</boardgamepodcastepisode>
+    <boardgamecategory objectid="1002">Card Game</boardgamecategory>
+    <boardgamesubdomain objectid="4667">Customizable Games</boardgamesubdomain>
+    <boardgamefamily objectid="5611">Cyberpunk</boardgamefamily>
+    <boardgamepublisher objectid="2973">Edge Entertainment</boardgamepublisher>
+    <boardgameversion objectid="165641">English first edition</boardgameversion>
+    <boardgamepodcastepisode objectid="99264">Episode 001 : For the Love of the Game</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99263">Episode 002 : Core Values</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99262">Episode 003 : Bob the Builder</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="101553">Episode 004 : The Aftermath</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="100529">Episode 1 - Andromeda versus Core Weyland</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="94169">Episode 14 - The Break</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102277">Episode 2 - Big Dig Whizzard versus Core Haas-Bioroid</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="85923">Episode 2 - Living and Trading in the Net</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="101290">Episode 22: So You Want To Get Into Card Games!</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="96959">Episode 27: Pt. 1 - Totally Confused Again</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="91955">Episode 31: Android Netrunner, Gateway Games and Pacing in RPGs</boardgamepodcastepisode>
+    <boardgamepublisher objectid="17">Fantasy Flight Games</boardgamepublisher>
+    <boardgameversion objectid="196109">French first edition</boardgameversion>
+    <boardgamepublisher objectid="4617">Galakta</boardgamepublisher>
+    <boardgamepublisher objectid="12540">Game Harbor</boardgamepublisher>
+    <boardgamepodcastepisode objectid="95129">Gameophiles Podcast Episode 8</boardgamepodcastepisode>
+    <boardgamedesigner objectid="14">Richard Garfield</boardgamedesigner>
+    <boardgamepodcastepisode objectid="98336">GeekNights 20130122 - Impressions of Android:Netrunner</boardgamepodcastepisode>
+    <boardgameversion objectid="187733">German first edition</boardgameversion>
+    <boardgameartist objectid="29100">Gong Studios</boardgameartist>
+    <boardgamefamily objectid="20584">Hackers</boardgamefamily>
+    <boardgamemechanic objectid="2040">Hand Management</boardgamemechanic>
+    <boardgamepublisher objectid="264">Heidelberger Spieleverlag</boardgamepublisher>
+    <boardgamedesigner objectid="62803">Lukas Litzsinger</boardgamedesigner>
+    <boardgamefamily objectid="5337">Living Card Game</boardgamefamily>
+    <boardgamepodcastepisode objectid="102040">Lucky Podcast Number Seven ft. Leigh Alexander</boardgamepodcastepisode>
+    <boardgameartist objectid="24858">Henning Ludvigsen</boardgameartist>
+    <boardgameversion objectid="189758">Polish first edition</boardgameversion>
+    <boardgamecategory objectid="1016">Science Fiction</boardgamecategory>
+    <boardgamemechanic objectid="2016">Secret Unit Deployment</boardgamemechanic>
+    <boardgameversion objectid="204079">Spanish first edition</boardgameversion>
+    <boardgamepodcastepisode objectid="93241">Special Bonus Episode - Trent Rules!</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="96373">SpieLamaCast</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="89487">Strange Assembly 068 - Icebreaker</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="95436">Strange Assembly 074 - Trilogy</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="97669">Strange Assembly 082 - Cyber Exodus</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="97991">Strange Assembly 085 - A Study in Static</boardgamepodcastepisode>
+    <boardgamesubdomain objectid="5497">Strategy Games</boardgamesubdomain>
+    <boardgameartist objectid="19229">Mark Anthony Taduran</boardgameartist>
+    <boardgamepodcastepisode objectid="102431">The Dice Section 15: Android: Netrunner</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99432">The Fifth SU&amp;amp;SD Podcast, From SU&amp;amp;SD</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99253">The Ice Box 1st Installation</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99252">The Ice Box 2nd Installation</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99251">The Ice Box 3rd Installation</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99250">The Ice Box 4th Installation</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99249">The Ice Box 5th Installation</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99248">The Ice Box 6th Installation</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="99431">The Very Sixth SU&amp;amp;SD Podcast</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="79993">This Board Game Life Episode #011 – All Things Stefan Feld</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="85066">This Board Game Life Episode #020 – GenCon 2012 Revisited (Part Two)</boardgamepodcastepisode>
+    <boardgamemechanic objectid="2015">Variable Player Powers</boardgamemechanic>
+    <boardgamepodcastepisode objectid="96889">Wooden Cubes &amp;amp; Iron Soldiers: “Just the Two of Us” Episode 8</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="102477">[Reviews] N°45-B NetRunner, Targui et les jeux narratifs à l’honneur</boardgamepodcastepisode>
+    <boardgameimplementation objectid="1301" inbound="true">Netrunner</boardgameimplementation>
+
+    <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="155">
+
+      <results numplayers="1">
+        <result value="Best" numvotes="0" />
+        <result value="Recommended" numvotes="1" />
+        <result value="Not Recommended" numvotes="97" />
+      </results>
+
+      <results numplayers="2">
+        <result value="Best" numvotes="145" />
+        <result value="Recommended" numvotes="9" />
+        <result value="Not Recommended" numvotes="0" />
+      </results>
+
+      <results numplayers="2+">
+        <result value="Best" numvotes="0" />
+        <result value="Recommended" numvotes="2" />
+        <result value="Not Recommended" numvotes="95" />
+      </results>
+    </poll>
+
+    <poll name="language_dependence" title="Language Dependence" totalvotes="90">
+
+      <results>
+        <result level="1" value="No necessary in-game text" numvotes="0" />
+        <result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+        <result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="3" />
+        <result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="82" />
+        <result level="5" value="Unplayable in another language" numvotes="5" />
+      </results>
+    </poll>
+
+    <poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="72">
+      <results>
+        <result value="2" numvotes="0" />
+        <result value="3" numvotes="0" />
+        <result value="4" numvotes="0" />
+        <result value="5" numvotes="0" />
+        <result value="6" numvotes="0" />
+        <result value="8" numvotes="1" />
+        <result value="10" numvotes="7" />
+        <result value="12" numvotes="38" />
+        <result value="14" numvotes="25" />
+        <result value="16" numvotes="1" />
+        <result value="18" numvotes="0" />
+        <result value="21 and up" numvotes="0" />
+      </results>
+    </poll>
+
+
+    <comment username="0otTheMonk" rating="10">One of my favorite games of all time!</comment>
+    <comment username="A Strange Aeon" rating="N/A">Sounds really fun--I never got to play the original Netrunner (too busy with Magic at the time), but the theme and asymmetry sound really cool. </comment>
+    <comment username="abbeynormal" rating="N/A">Unplayed.</comment>
+    <comment username="abravenewgeek" rating="9.5">Uber clever - the matrix meets (nearly) all the card game mechanics that I love. Hidden information, fantastic theme that fits well with the gameplay. A totally different way to play for each side and fabulous artwork. I am so happy that I have played this game! And the girl actually likes it despite the initial negative impression of the theme.</comment>
+    <comment username="acolyte" rating="9">The new edition by FFG is an improvement on the original because it is no longer a CCG.  The asymetric game design is fantastic.  This game has a ton of depth, replay, and one of the coolest themes ever.</comment>
+    <comment username="Adam78" rating="5.5">Loads of text on each card; loads of icons too. If you look up the meaning of the icons, you find they represent many forms of hacking-related jargon; so you&#039;re still none the wiser. This game will never tell you to &quot;Use this card to remove a green card from in front of another player&quot;, or anything so literal. It is so steeped in theme. There is probably a good strategic card game here, but my brain doesn&#039;t work this way.</comment>
+    <comment username="adamw" rating="6">These things are not my cup of tea in the end. I dislike games that require intimate deck knowledge to be a superior player - and I can only assume Netrunner asks the same of its players. So nothing I need to have.</comment>
+    <comment username="AdmiralGT" rating="10">Probably the best CCG/LCG to come out in a long time. Finally got me excited about them again. While deck building is required, good play is what separates the good from the bad. So many things to do and not enough resources to do them all. Can&#039;t wait until the data packs come out to really start deckbuilding.</comment>
+    <comment username="Adonai_80" rating="8">Been a while since this was played, but fun game and very thematic</comment>
+    <comment username="Aelf" rating="8">Excellent game, however I really wish there was a basic set of 7 balanced decks that didn&#039;t need the generic cards swapping about. I&#039;m not interested in competitive play.</comment>
+    <comment username="aerhon" rating="10">Richard Garfield life masterpiece !!!</comment>
+    <comment username="AlexBrown" rating="10">A fantastic reboot of a great game. Would actually replace Magic for me if the rest of my group wasn&#039;t so focused on Magic.</comment>
+    <comment username="Alexfrog" rating="10">The awesomeness of original netrunner, combined with reasonable deck construction rules to remove the brokenness.  This reprinting of the greatest CCG ever is actually even better than the original!</comment>
+    <comment username="alexgrant" rating="N/A">Just one solo play to learn the rules with the core set only. Seemed a bit uninspiring, but that&#039;s really not the putting the game in its best light :)</comment>
+    <comment username="allworkandnoclay" rating="N/A">Fantastic unique LCG game! Quickly working its way up the ranks of my favorites.</comment>
+    <comment username="aloehart" rating="9">A truly unique cardgame experience. The game is extremely well balanced and an absolute blast</comment>
+    <comment username="andrewh63" rating="N/A">From Amazon for $30 on 9/14.</comment>
+    <comment username="AndySzy" rating="8">I&#039;m quite intrigued by this so far. I like the asymmetry and bluffing aspects, and the different feels of the decks. I don&#039;t think Jinteki/Shaper is a great way to start though, as each initial game ended when the runner hit a trap or ICE that flatlined them. Wasn&#039;t super fun (although I imagine once we&#039;re done learning it will be!). </comment>
+    <comment username="Anemelos" rating="8">Netrunner isn&#039;t collectible any more. Good news for this great 2-player card game. Gameplay remained the same. The 2 sides play completely different. Cool artwork that stays respectfull to the original one. </comment>
+    <comment username="Angkor" rating="8.6">Building the deck is funnier than playing the game itself, but I think that &quot;building&quot; (setting up) a game is part of it, and creating the deck in this game is so exiting that it deserves it&#039;s current rank. The theme also is very appealing, a plus in an already good implementation.</comment>
+    <comment username="Angrist" rating="10">The best game I have ever played. I simply cannot recommend it enough. It&#039;s the ultimate two player head-to-head game.</comment>
+    <comment username="AnotherHorrorFan" rating="10">Absolutely incredible. Bought three copies of the core set so I am in for the long haul. My one fear, as a player who never played the original, is the game&#039;s expandability, as many mechanics seem to be written explicitly into the core rules rather than leaving them to the cards.</comment>
+    <comment username="anovac" rating="8.5">After several plays there&#039;s still a lot to discover a about Netrunner. The rating is provisional until i gey to play at least all the pre-constructed decks.</comment>
+    <comment username="awmiller" rating="9.5">This game is AMAZING! The only thing keeping it from being a 10 is the lack of deck building that is available out of the box. The asymmetrical sides (Corp vs Runner) in this game really allow for two very different experiences. I am sad that I missed the original, but overjoyed that FFG has brought it back for all of us to enjoy. </comment>
+    <comment username="AWTama" rating="9">My favorite 2 player deck building card game that is not cooperative.</comment>
+    <comment username="Bartas" rating="9">Very neat game, dragged me into LCG format. Fun, challenging, intriguing, I want more.</comment>
+    <comment username="Base the Bass" rating="10">A very thematic LCG. I did have the feeling that I am a hacker, and there is a robust game. However I was not so excited with the development options as I was in Warhammer Invasion. Waiting for more plays.</comment>
+    <comment username="Battlemind" rating="10">Android: Netrunner is probably the best card game I&#039;ve played over my many years of card gaming.</comment>
+    <comment username="baughmm" rating="8.5">Great game!  My wife and I now have a few games under our belt and are ready to start deckbuilding.  Let&#039;s see if this goes over well.  </comment>
+    
+    
+    <statistics page="1">
+      <ratings date="20120511">
+        <usersrated>0</usersrated>
+        <average>0</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0</stddev>
+        <median>0</median>
+        <owned>0</owned>
+        <trading>0</trading>
+        <wanting>0</wanting>
+        <wishing>0</wishing>
+        <numcomments>0</numcomments>
+        <numweights>0</numweights>
+        <averageweight>0</averageweight>
+      </ratings>
+      <ratings date="20120512">
+        <usersrated>0</usersrated>
+        <average>0</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0</stddev>
+        <median>0</median>
+        <owned>0</owned>
+        <trading>0</trading>
+        <wanting>0</wanting>
+        <wishing>0</wishing>
+        <numcomments>0</numcomments>
+        <numweights>0</numweights>
+        <averageweight>0</averageweight>
+      </ratings>
+      <ratings date="20120513">
+        <usersrated>1</usersrated>
+        <average>8</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0</stddev>
+        <median>0</median>
+        <owned>0</owned>
+        <trading>0</trading>
+        <wanting>12</wanting>
+        <wishing>56</wishing>
+        <numcomments>2</numcomments>
+        <numweights>0</numweights>
+        <averageweight>0</averageweight>
+      </ratings>
+      <ratings date="20120514">
+        <usersrated>3</usersrated>
+        <average>9.16667</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.849837</stddev>
+        <median>0</median>
+        <owned>0</owned>
+        <trading>0</trading>
+        <wanting>23</wanting>
+        <wishing>133</wishing>
+        <numcomments>2</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.5</averageweight>
+      </ratings>
+      <ratings date="20120515">
+        <usersrated>4</usersrated>
+        <average>8.875</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.892679</stddev>
+        <median>0</median>
+        <owned>1</owned>
+        <trading>0</trading>
+        <wanting>41</wanting>
+        <wishing>266</wishing>
+        <numcomments>4</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.5</averageweight>
+      </ratings>
+      <ratings date="20120516">
+        <usersrated>6</usersrated>
+        <average>8.75</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.803638</stddev>
+        <median>0</median>
+        <owned>2</owned>
+        <trading>0</trading>
+        <wanting>52</wanting>
+        <wishing>321</wishing>
+        <numcomments>7</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.3333</averageweight>
+      </ratings>
+      <ratings date="20120517">
+        <usersrated>6</usersrated>
+        <average>8.75</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.803638</stddev>
+        <median>0</median>
+        <owned>2</owned>
+        <trading>0</trading>
+        <wanting>58</wanting>
+        <wishing>353</wishing>
+        <numcomments>9</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.3333</averageweight>
+      </ratings>
+      <ratings date="20120518">
+        <usersrated>7</usersrated>
+        <average>8.8</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.754037</stddev>
+        <median>0</median>
+        <owned>2</owned>
+        <trading>0</trading>
+        <wanting>63</wanting>
+        <wishing>377</wishing>
+        <numcomments>9</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.3333</averageweight>
+      </ratings>
+      <ratings date="20120519">
+        <usersrated>7</usersrated>
+        <average>8.8</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.754037</stddev>
+        <median>0</median>
+        <owned>2</owned>
+        <trading>0</trading>
+        <wanting>70</wanting>
+        <wishing>399</wishing>
+        <numcomments>11</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.3333</averageweight>
+      </ratings>
+      <ratings date="20120520">
+        <usersrated>8</usersrated>
+        <average>8.95</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.809321</stddev>
+        <median>0</median>
+        <owned>3</owned>
+        <trading>0</trading>
+        <wanting>71</wanting>
+        <wishing>406</wishing>
+        <numcomments>11</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.3333</averageweight>
+      </ratings>
+      <ratings date="20120521">
+        <usersrated>8</usersrated>
+        <average>8.95</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.809321</stddev>
+        <median>0</median>
+        <owned>3</owned>
+        <trading>0</trading>
+        <wanting>73</wanting>
+        <wishing>415</wishing>
+        <numcomments>12</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120522">
+        <usersrated>8</usersrated>
+        <average>8.95</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.809321</stddev>
+        <median>0</median>
+        <owned>3</owned>
+        <trading>0</trading>
+        <wanting>75</wanting>
+        <wishing>425</wishing>
+        <numcomments>12</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120523">
+        <usersrated>8</usersrated>
+        <average>8.95</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.809321</stddev>
+        <median>0</median>
+        <owned>3</owned>
+        <trading>0</trading>
+        <wanting>78</wanting>
+        <wishing>439</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120524">
+        <usersrated>9</usersrated>
+        <average>8.84444</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.819364</stddev>
+        <median>0</median>
+        <owned>3</owned>
+        <trading>0</trading>
+        <wanting>80</wanting>
+        <wishing>448</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120525">
+        <usersrated>9</usersrated>
+        <average>8.84444</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.819364</stddev>
+        <median>0</median>
+        <owned>3</owned>
+        <trading>1</trading>
+        <wanting>82</wanting>
+        <wishing>458</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120526">
+        <usersrated>9</usersrated>
+        <average>8.84444</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+        </ranks>
+
+        <stddev>0.819364</stddev>
+        <median>0</median>
+        <owned>4</owned>
+        <trading>0</trading>
+        <wanting>86</wanting>
+        <wishing>468</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120527">
+        <usersrated>9</usersrated>
+        <average>8.84444</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02817" />
+
+        </ranks>
+
+        <stddev>0.819364</stddev>
+        <median>0</median>
+        <owned>4</owned>
+        <trading>0</trading>
+        <wanting>90</wanting>
+        <wishing>474</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120528">
+        <usersrated>9</usersrated>
+        <average>8.84444</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02817" />
+
+        </ranks>
+
+        <stddev>0.819364</stddev>
+        <median>0</median>
+        <owned>5</owned>
+        <trading>0</trading>
+        <wanting>93</wanting>
+        <wishing>479</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120529">
+        <usersrated>9</usersrated>
+        <average>8.84444</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02817" />
+
+        </ranks>
+
+        <stddev>0.819364</stddev>
+        <median>0</median>
+        <owned>6</owned>
+        <trading>0</trading>
+        <wanting>94</wanting>
+        <wishing>488</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120530">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02817" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>7</owned>
+        <trading>0</trading>
+        <wanting>103</wanting>
+        <wishing>508</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120531">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02817" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>8</owned>
+        <trading>0</trading>
+        <wanting>102</wanting>
+        <wishing>519</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120601">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>107</wanting>
+        <wishing>538</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120602">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>109</wanting>
+        <wishing>548</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120603">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>111</wanting>
+        <wishing>559</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.25</averageweight>
+      </ratings>
+      <ratings date="20120604">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>113</wanting>
+        <wishing>569</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120605">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>114</wanting>
+        <wishing>577</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120606">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>116</wanting>
+        <wishing>580</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120607">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>118</wanting>
+        <wishing>585</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120608">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>119</wanting>
+        <wishing>590</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120609">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>120</wanting>
+        <wishing>593</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120610">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>120</wanting>
+        <wishing>598</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120611">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>121</wanting>
+        <wishing>605</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120612">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>124</wanting>
+        <wishing>609</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120613">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>124</wanting>
+        <wishing>614</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120614">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>125</wanting>
+        <wishing>622</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120615">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>9</owned>
+        <trading>0</trading>
+        <wanting>125</wanting>
+        <wishing>625</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120616">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>125</wanting>
+        <wishing>627</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120617">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>125</wanting>
+        <wishing>632</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120618">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>126</wanting>
+        <wishing>636</wishing>
+        <numcomments>14</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120619">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>128</wanting>
+        <wishing>643</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120620">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>10</owned>
+        <trading>0</trading>
+        <wanting>130</wanting>
+        <wishing>658</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120621">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>11</owned>
+        <trading>0</trading>
+        <wanting>130</wanting>
+        <wishing>660</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120622">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>11</owned>
+        <trading>0</trading>
+        <wanting>134</wanting>
+        <wishing>667</wishing>
+        <numcomments>15</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120623">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>11</owned>
+        <trading>0</trading>
+        <wanting>135</wanting>
+        <wishing>674</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120624">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>11</owned>
+        <trading>0</trading>
+        <wanting>138</wanting>
+        <wishing>679</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120625">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>11</owned>
+        <trading>0</trading>
+        <wanting>137</wanting>
+        <wishing>681</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120626">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>12</owned>
+        <trading>0</trading>
+        <wanting>139</wanting>
+        <wishing>693</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120627">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>12</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>704</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120628">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>13</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>705</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120629">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>13</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>707</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120630">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02906" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>13</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>711</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120701">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>716</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120702">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>15</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>718</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120703">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>15</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>724</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120704">
+        <usersrated>10</usersrated>
+        <average>8.76</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>0.817557</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>141</wanting>
+        <wishing>730</wishing>
+        <numcomments>17</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120705">
+        <usersrated>11</usersrated>
+        <average>8.69091</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>0.80955</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>144</wanting>
+        <wishing>736</wishing>
+        <numcomments>18</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120706">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>143</wanting>
+        <wishing>737</wishing>
+        <numcomments>19</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120707">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>146</wanting>
+        <wishing>743</wishing>
+        <numcomments>19</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120708">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>146</wanting>
+        <wishing>748</wishing>
+        <numcomments>20</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120709">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>149</wanting>
+        <wishing>753</wishing>
+        <numcomments>20</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120710">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>14</owned>
+        <trading>0</trading>
+        <wanting>150</wanting>
+        <wishing>755</wishing>
+        <numcomments>20</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120711">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>15</owned>
+        <trading>0</trading>
+        <wanting>150</wanting>
+        <wishing>757</wishing>
+        <numcomments>20</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120712">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>16</owned>
+        <trading>0</trading>
+        <wanting>151</wanting>
+        <wishing>766</wishing>
+        <numcomments>20</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120713">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>16</owned>
+        <trading>0</trading>
+        <wanting>154</wanting>
+        <wishing>771</wishing>
+        <numcomments>21</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120714">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>16</owned>
+        <trading>0</trading>
+        <wanting>155</wanting>
+        <wishing>777</wishing>
+        <numcomments>21</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120715">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>17</owned>
+        <trading>0</trading>
+        <wanting>157</wanting>
+        <wishing>779</wishing>
+        <numcomments>21</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120716">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>17</owned>
+        <trading>0</trading>
+        <wanting>157</wanting>
+        <wishing>783</wishing>
+        <numcomments>21</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120717">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>17</owned>
+        <trading>0</trading>
+        <wanting>156</wanting>
+        <wishing>794</wishing>
+        <numcomments>21</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120718">
+        <usersrated>12</usersrated>
+        <average>8.05</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.26256</stddev>
+        <median>0</median>
+        <owned>17</owned>
+        <trading>0</trading>
+        <wanting>157</wanting>
+        <wishing>796</wishing>
+        <numcomments>21</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120719">
+        <usersrated>13</usersrated>
+        <average>8.12308</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.18849</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>157</wanting>
+        <wishing>799</wishing>
+        <numcomments>22</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120720">
+        <usersrated>14</usersrated>
+        <average>8.18379</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.12021</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>159</wanting>
+        <wishing>806</wishing>
+        <numcomments>23</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120721">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>160</wanting>
+        <wishing>814</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120722">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>160</wanting>
+        <wishing>820</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120723">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>163</wanting>
+        <wishing>828</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120724">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>166</wanting>
+        <wishing>831</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120725">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>166</wanting>
+        <wishing>835</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120726">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>166</wanting>
+        <wishing>839</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120727">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>167</wanting>
+        <wishing>840</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120728">
+        <usersrated>15</usersrated>
+        <average>8.17153</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.04883</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>168</wanting>
+        <wishing>844</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120729">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>168</wanting>
+        <wishing>845</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120730">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>170</wanting>
+        <wishing>849</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120731">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.02404" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>170</wanting>
+        <wishing>855</wishing>
+        <numcomments>24</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120801">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>171</wanting>
+        <wishing>858</wishing>
+        <numcomments>25</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120802">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>174</wanting>
+        <wishing>863</wishing>
+        <numcomments>25</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120803">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>175</wanting>
+        <wishing>868</wishing>
+        <numcomments>25</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.2</averageweight>
+      </ratings>
+      <ratings date="20120804">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>177</wanting>
+        <wishing>872</wishing>
+        <numcomments>25</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1667</averageweight>
+      </ratings>
+      <ratings date="20120805">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>177</wanting>
+        <wishing>874</wishing>
+        <numcomments>25</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1667</averageweight>
+      </ratings>
+      <ratings date="20120806">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>177</wanting>
+        <wishing>884</wishing>
+        <numcomments>26</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1667</averageweight>
+      </ratings>
+      <ratings date="20120807">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>178</wanting>
+        <wishing>895</wishing>
+        <numcomments>27</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1667</averageweight>
+      </ratings>
+      <ratings date="20120808">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>18</owned>
+        <trading>0</trading>
+        <wanting>183</wanting>
+        <wishing>906</wishing>
+        <numcomments>27</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120809">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>19</owned>
+        <trading>0</trading>
+        <wanting>183</wanting>
+        <wishing>910</wishing>
+        <numcomments>27</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120810">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>20</owned>
+        <trading>0</trading>
+        <wanting>186</wanting>
+        <wishing>920</wishing>
+        <numcomments>28</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120811">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>20</owned>
+        <trading>0</trading>
+        <wanting>185</wanting>
+        <wishing>925</wishing>
+        <numcomments>29</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120812">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>20</owned>
+        <trading>0</trading>
+        <wanting>185</wanting>
+        <wishing>930</wishing>
+        <numcomments>31</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120813">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>20</owned>
+        <trading>0</trading>
+        <wanting>185</wanting>
+        <wishing>938</wishing>
+        <numcomments>31</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120814">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>21</owned>
+        <trading>0</trading>
+        <wanting>186</wanting>
+        <wishing>944</wishing>
+        <numcomments>31</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120815">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>21</owned>
+        <trading>0</trading>
+        <wanting>187</wanting>
+        <wishing>954</wishing>
+        <numcomments>31</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120816">
+        <usersrated>16</usersrated>
+        <average>8.03581</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>2.05223</stddev>
+        <median>0</median>
+        <owned>21</owned>
+        <trading>0</trading>
+        <wanting>187</wanting>
+        <wishing>962</wishing>
+        <numcomments>32</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120817">
+        <usersrated>17</usersrated>
+        <average>8.03371</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>1.99097</stddev>
+        <median>0</median>
+        <owned>27</owned>
+        <trading>0</trading>
+        <wanting>189</wanting>
+        <wishing>975</wishing>
+        <numcomments>32</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+      <ratings date="20120818">
+        <usersrated>17</usersrated>
+        <average>8.03371</average>
+        <bayesaverage>0</bayesaverage>
+
+        <ranks>
+
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+
+
+          <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
+
+        </ranks>
+
+        <stddev>1.99097</stddev>
+        <median>0</median>
+        <owned>37</owned>
+        <trading>0</trading>
+        <wanting>188</wanting>
+        <wishing>987</wishing>
+        <numcomments>33</numcomments>
+        <numweights>0</numweights>
+        <averageweight>3.1429</averageweight>
+      </ratings>
+    </statistics>
+
+
+
+  </boardgame>
+</boardgames>

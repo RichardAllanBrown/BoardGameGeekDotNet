@@ -63,6 +63,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestData\BoardGame.xml" />
     <Content Include="TestData\GeekListWithComments.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
