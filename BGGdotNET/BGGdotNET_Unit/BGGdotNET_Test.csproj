@@ -62,7 +62,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TestData\XML_SimpleGeekList.xml">
+    <Content Include="TestData\GeekListWithComments.xml" />
+    <Content Include="TestData\GeekList.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

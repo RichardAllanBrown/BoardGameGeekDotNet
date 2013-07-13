@@ -1,0 +1,410 @@
+﻿<geeklist id="11205" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+  <postdate>Sat, 18 Nov 2006 20:12:46 +0000</postdate>
+  <postdate_timestamp>1163880766</postdate_timestamp>
+  <editdate>Tue, 03 Nov 2009 17:11:22 +0000</editdate>
+  <editdate_timestamp>1257268282</editdate_timestamp>
+  <thumbs>90</thumbs>
+  <numitems>20</numitems>
+
+  <username>zefquaavius</username>
+  <title>Segregation in Carcassonne!</title>
+  <description>You&#039;ve mixed all your Carcassonne expansions together for the massive, every-expansion game.  Now you want to separate them to try a simple mix of no expansions, or only one with the original.  How are you going to tackle this daunting task?  Easy!  Look at the photos in this inventory, and parse the tiles appropriately.  (I recommend focusing on the expansions, and letting the original Carcassonne&#039;s 72 tiles remain as the distillate.)</description>
+
+  <comment username="johnostout" date="Thu, 27 May 2010 13:32:48 +0000" postdate="Thu, 27 May 2010 13:32:48 +0000" editdate="Thu, 27 May 2010 13:32:48 +0000" thumbs="2">
+    Why no listing for Cult, Siege and Creativity?
+  </comment>
+  <comment username="zefquaavius" date="Thu, 27 May 2010 23:57:33 +0000" postdate="Thu, 27 May 2010 23:57:33 +0000" editdate="Thu, 27 May 2010 23:57:33 +0000" thumbs="1">
+    Looking at the comments above, it seems that I originally added [thing=38855]Catapult[/thing] with [thing=35666]Cult, Siege &amp; Creativity[/thing]&#039;s image, so perhaps I skipped a step along the way.  Nonetheless, it&#039;s there now.
+  </comment>
+
+
+  <item id="186612"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="822"
+			objectname="Carcassonne"
+			username="zefquaavius"
+			postdate="Thu, 10 Nov 2005 02:46:36 +0000"
+			editdate="Mon, 05 Nov 2007 19:57:31 +0000"
+			thumbs="1"
+						imageid="100654">
+    <body>
+      2000 [b]Carcassonne[/b]
+      72 land tiles (1 of which is a starting tile with a darker back)
+      8 followers × 5 colors (blue, yellow, green, red, black)
+      1 scoring track
+    </body>
+
+
+  </item>
+  <item id="186613"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="2591"
+			objectname="Carcassonne: The River"
+			username="zefquaavius"
+			postdate="Fri, 04 Nov 2005 02:49:54 +0000"
+			editdate="Mon, 05 Nov 2007 19:57:42 +0000"
+			thumbs="1"
+						imageid="96560">
+    <body>
+      2001 [b]Carcassonne: The River[/b]
+      12 river tiles
+    </body>
+
+
+  </item>
+  <item id="186614"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="2993"
+			objectname="Carcassonne: Inns &amp; Cathedrals"
+			username="zefquaavius"
+			postdate="Fri, 04 Nov 2005 02:49:54 +0000"
+			editdate="Mon, 05 Nov 2007 19:57:58 +0000"
+			thumbs="1"
+						imageid="99553">
+    <body>
+      2002 [b]Carcassonne: Inns &amp; Cathedrals[/b] (FKA [b]The Expansion[/b])
+      18 land tiles
+      8 followers (grey)
+      6 large followers × 6 colors (blue, yellow, green, red, black, grey)
+      6 50/100 point scoring track lap tiles
+    </body>
+
+    <comment username="hfiguiere" date="Mon, 19 Jan 2009 06:16:30 +0000" postdate="Mon, 19 Jan 2009 06:16:30 +0000" editdate="Mon, 19 Jan 2009 06:16:30 +0000" thumbs="3">
+      On my copy of Inn and Cathedrals, they all have a little symbol (meeple shape), making them easier to segregate them. I wish they were all like that.
+    </comment>
+    <comment username="zefquaavius" date="Mon, 19 Jan 2009 11:54:40 +0000" postdate="Mon, 19 Jan 2009 11:54:40 +0000" editdate="Mon, 19 Jan 2009 11:54:40 +0000" thumbs="1">
+      Glad to hear they came around on that!  Of course, this expansion had no distinctive name at first, either, so I&#039;m glad to see that HiG and/or RGG are happy to keep improving their products!
+    </comment>
+
+  </item>
+  <item id="186615"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="5405"
+			objectname="Carcassonne: Traders &amp; Builders"
+			username="zefquaavius"
+			postdate="Fri, 04 Nov 2005 02:49:54 +0000"
+			editdate="Mon, 05 Nov 2007 19:58:08 +0000"
+			thumbs="1"
+						imageid="24630">
+    <body>
+      2003 [b]Carcassonne: Traders &amp; Builders[/b]
+      24 land tiles (20 have goods on them, which are rather conspicuous)
+      20 trade good tokens (9 wine, 6 grain, 5 cloth)
+      1 pig × 6 colors (blue, yellow, green, red, black, grey)
+      1 builder × 6 colors (blue, yellow, green, red, black, grey)
+      1 cloth bag [It&#039;s about time!!]
+    </body>
+
+
+  </item>
+  <item id="186616"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="7707"
+			objectname="Carcassonne: King &amp; Scout"
+			username="zefquaavius"
+			postdate="Fri, 04 Nov 2005 02:49:54 +0000"
+			editdate="Mon, 05 Nov 2007 20:05:42 +0000"
+			thumbs="1"
+						imageid="33814">
+    <body>
+      2003 [b]Carcassonne: King[/b] &amp; Scout
+      5 land tiles
+      1 king tile
+      1 robber baron tile
+    </body>
+
+
+  </item>
+  <item id="186617"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="12903"
+			objectname="The Count of Carcassonne"
+			username="zefquaavius"
+			postdate="Fri, 04 Nov 2005 12:00:48 +0000"
+			editdate="Mon, 05 Nov 2007 19:58:39 +0000"
+			thumbs="1"
+						imageid="53362">
+    <body>
+      2004 [b]The Count of Carcassonne[/b]
+      12 city tiles (they fit together to form a city, and their backs are numbered 1-12)
+      1 count
+    </body>
+
+
+  </item>
+  <item id="186618"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="13300"
+			objectname="Carcassonne: Die Katharer"
+			username="zefquaavius"
+			postdate="Fri, 04 Nov 2005 12:00:48 +0000"
+			editdate="Mon, 05 Nov 2007 19:59:33 +0000"
+			thumbs="1"
+						imageid="56574">
+    <body>
+      2004 [b]Carcassonne: The Cathars[/b] - [wikipage=Spielbox] insert
+      4 land tiles (each has a monk icon, in addition to the besieged city walls)
+    </body>
+
+
+  </item>
+  <item id="186619"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="15158"
+			objectname="Carcassonne: The Princess &amp; the Dragon"
+			username="zefquaavius"
+			postdate="Wed, 26 Jul 2006 00:46:10 +0000"
+			editdate="Mon, 05 Nov 2007 19:59:45 +0000"
+			thumbs="1"
+						imageid="67888">
+    <body>
+      2005 [b]Carcassonne: The Princess &amp; The Dragon[/b]
+      30 land tiles (each tile has either a volcano (with a cute little dragon), a dragon icon, a princess icon, or a magic gateway on it - only The River II has another volcano, but there&#039;s river on the tile, so it&#039;s pretty easy to identify)
+      1 dragon
+      1 fairy
+    </body>
+
+
+  </item>
+  <item id="186620"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="18836"
+			objectname="Carcassonne: The River II"
+			username="zefquaavius"
+			postdate="Fri, 04 Nov 2005 02:49:54 +0000"
+			editdate="Mon, 05 Nov 2007 19:57:21 +0000"
+			thumbs="1"
+						imageid="84578">
+    <body>
+      2005 [b]Carcassonne: The River II[/b]
+      12 river tiles
+    </body>
+
+    <comment username="hfiguiere" date="Mon, 19 Jan 2009 06:18:41 +0000" postdate="Mon, 19 Jan 2009 06:18:41 +0000" editdate="Mon, 19 Jan 2009 06:18:41 +0000" thumbs="2">
+      When part of [GAMEID=33458], the River II tiles have a little symbol on them (crown shape at least on the French edition).
+    </comment>
+
+  </item>
+  <item id="231132"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="21385"
+			objectname="Carcassonne: The Tower"
+			username="zefquaavius"
+			postdate="Wed, 26 Jul 2006 00:46:10 +0000"
+			editdate="Mon, 05 Nov 2007 19:57:06 +0000"
+			thumbs="1"
+						imageid="126359">
+    <body>
+      2006 [b]Carcassonne: The Tower[/b]
+      18 tower tiles (each tile has a tower foundation on it)
+      30 tower segments
+    </body>
+
+
+  </item>
+  <item id="335898"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="26615"
+			objectname="Carcassonne: The Mini Expansion"
+			username="zefquaavius"
+			postdate="Sat, 18 Nov 2006 20:12:46 +0000"
+			editdate="Mon, 05 Nov 2007 19:56:52 +0000"
+			thumbs="1"
+						imageid="162877">
+    <body>
+      2006 [b]Mini Expansion[/b] in Games Quarterly Magazine, Issue 11
+      12 land tiles
+    </body>
+
+
+  </item>
+  <item id="525483"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="31784"
+			objectname="Carcassonne: Abbey &amp; Mayor"
+			username="zefquaavius"
+			postdate="Mon, 05 Nov 2007 19:56:29 +0000"
+			editdate="Mon, 05 Nov 2007 20:01:36 +0000"
+			thumbs="1"
+						imageid="264081">
+    <body>
+      2007 [b]Carcassonne: Abbey &amp; Mayor[/b]
+      12 land tiles (They have translucent barn icons on them)
+      6 abbey tiles
+      1 wagon × 6 colors (blue, yellow, green, red, black, grey)
+      1 mayor × 6 colors (blue, yellow, green, red, black, grey)
+      1 barn × 6 colors (blue, yellow, green, red, black, grey)
+    </body>
+
+
+  </item>
+  <item id="761899"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="38431"
+			objectname="Carcassonne: The Cult"
+			username="zefquaavius"
+			postdate="Wed, 08 Oct 2008 17:45:42 +0000"
+			editdate="Wed, 08 Oct 2008 17:46:15 +0000"
+			thumbs="1"
+						imageid="372228">
+    <body>
+      2008 [b]Carcassonne: The Cult[/b]
+      5 land tiles (in [gameid=33458] they have a crown icon; in the [i]Hans im Glück Almanach 2008[/i] they have a pentagon icon; in [gameid=35666] they have no icon, and there&#039;s a sixth tile)
+    </body>
+
+
+  </item>
+  <item id="1299878"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="35666"
+			objectname="Carcassonne: Cult, Siege and Creativity"
+			username="zefquaavius"
+			postdate="Thu, 27 May 2010 23:54:44 +0000"
+			editdate="Thu, 27 May 2010 23:54:44 +0000"
+			thumbs="1"
+						imageid="379240">
+    <body>
+      2008 [b]Carcassonne: Cult, Siege &amp; Creativity[/b]
+      6 Cult tiles (each has a big mound in the center)
+      4 Siege tiles (similar to [thing=13300][/thing])
+      2 Creativity tiles (blank white)
+    </body>
+
+
+  </item>
+  <item id="761883"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="38855"
+			objectname="Carcassonne: Catapult"
+			username="zefquaavius"
+			postdate="Wed, 08 Oct 2008 17:09:58 +0000"
+			editdate="Fri, 01 Jan 2010 21:57:29 +0000"
+			thumbs="1"
+						imageid="399169">
+    <body>
+      2008 [b]Carcassonne: The Catapult[/b]
+      12 land tiles (each bears a catapult icon, as well as depicting a fair with a catapult)
+      catapult
+      measuring board
+      4 catapult tokens × 6 colors (blue, yellow, green, red, black, grey)
+    </body>
+
+    <comment username="JoffW" date="Fri, 24 Oct 2008 11:58:24 +0000" postdate="Fri, 24 Oct 2008 11:58:24 +0000" editdate="Fri, 24 Oct 2008 11:58:24 +0000" thumbs="2">
+      This picture shows the expansion [i]Cult, Siege and Creativity[/i] (2008) and [b]not[/b] [i]The Catapult[/i].
+      As correctly stated, [i]The Catapult[/i] expansion has fair icons on them.
+    </comment>
+    <comment username="zefquaavius" date="Fri, 24 Oct 2008 12:02:03 +0000" postdate="Fri, 24 Oct 2008 12:02:03 +0000" editdate="Fri, 24 Oct 2008 12:02:03 +0000" thumbs="1">
+      Yes, it looks like it was a mistaken upload, for if you click on the picture, the image is gone from BGG&#039;s database.  So, let&#039;s consider it a placeholder for someone&#039;s eventual upload of just such a photo.  Thank you for your vigilance!
+    </comment>
+    <comment username="zefquaavius" date="Fri, 01 Jan 2010 22:00:32 +0000" postdate="Fri, 01 Jan 2010 22:00:32 +0000" editdate="Fri, 01 Jan 2010 22:00:32 +0000" thumbs="1">
+      Fixed.  :blush:
+    </comment>
+
+  </item>
+  <item id="1149629"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="45748"
+			objectname="Carcassonne: Wheel of Fortune"
+			username="zefquaavius"
+			postdate="Sat, 02 Jan 2010 03:55:52 +0000"
+			editdate="Sat, 02 Jan 2010 03:55:52 +0000"
+			thumbs="1"
+						imageid="512983">
+    <body>
+      2009 [b]Carcassonne: Wheel of Fortune[/b]
+      [imageid=512984 inline][imageid=512985 inline][imageid=512986 inline][imageid=512987 inline][imageid=512988 inline][imageid=512989 inline]
+      72 tiles bearing a wheel icon, comprising the following:
+      [c]   [/c]63 tiles released in [thing=822][/thing]
+      [c]   [/c]6 from [thing=2993]Inns &amp; Cathedrals[/thing]
+      [c]   [/c]1 from [thing=5405]Traders &amp; Builders[/thing]
+      [c]   [/c]2 from [thing=7707]King &amp; Scout[/thing].
+      1 4×4 wheel of fortune start tile
+    </body>
+
+
+  </item>
+  <item id="1149270"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="59065"
+			objectname="Carcassonne: Der Tunnel"
+			username="zefquaavius"
+			postdate="Fri, 01 Jan 2010 21:54:22 +0000"
+			editdate="Fri, 01 Jan 2010 21:54:22 +0000"
+			thumbs="1"
+						imageid="595711">
+    <body>
+      2009 [b]Carcassonne: The Tunnel[/b]
+      4 land tiles (each bears a pentagon icon and depicts 2 or 3 fancy archways as tunnel entrances)
+      2 tunnel chips × 6 colors (blue, yellow, green, red, black, grey)
+    </body>
+
+
+  </item>
+  <item id="1233885"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="67055"
+			objectname="Carcassonne: Die Kornkreise"
+			username="zefquaavius"
+			postdate="Sat, 13 Mar 2010 12:28:40 +0000"
+			editdate="Sat, 13 Mar 2010 12:32:18 +0000"
+			thumbs="1"
+						imageid="668328">
+    <body>
+      2010 [b]Carcassonne: Crop Circles[/b]
+      6 land tiles (each has a wheat icon, and a prominent grain field with a &quot;crop circle&quot; on the tile)
+    </body>
+
+
+  </item>
+  <item id="1300882"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="66646"
+			objectname="Carcassonne: Bridges, Castles, and Bazaars"
+			username="zefquaavius"
+			postdate="Sat, 29 May 2010 05:40:47 +0000"
+			editdate="Sat, 29 May 2010 05:40:47 +0000"
+			thumbs="1"
+						imageid="666463">
+    <body>
+      2010 [b]Carcassonne: Bridges, Castles, and Bazaars[/b]
+      12 landscape tiles (with a bridge icon)
+      12 castle tiles (oddly shaped)
+      12 wooden bridges
+    </body>
+
+
+  </item>
+  <item id="2326305"
+			objecttype="thing"
+			subtype="boardgame"
+			objectid="123905"
+			objectname="Carcassonne: The Festival"
+			username="zefquaavius"
+			postdate="Mon, 01 Oct 2012 15:34:45 +0000"
+			editdate="Mon, 01 Oct 2012 15:34:45 +0000"
+			thumbs="0"
+						imageid="1434650">
+    <body>10 Festival land tiles</body>
+
+
+  </item>
+</geeklist>

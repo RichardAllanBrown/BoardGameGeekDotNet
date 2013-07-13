@@ -17,12 +17,13 @@ namespace BGGdotNET_Test.UnitTest
     [TestClass]
     public class XMLParserTest_List
     {
+        public string testDataRelativePath = "TestData/GeekList.xml";
+
         [TestMethod]
         public void GeekListParse_NoComments_ID()
         {
             // Arrange
-            string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -38,7 +39,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -54,7 +55,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -70,7 +71,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -86,7 +87,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -102,7 +103,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -118,7 +119,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -134,7 +135,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -150,7 +151,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -166,7 +167,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -184,7 +185,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -199,12 +200,14 @@ namespace BGGdotNET_Test.UnitTest
     [TestClass]
     public class XMLParserTest_ListItems
     {
+        public string testDataRelativePath = "TestData/GeekList.xml";
+
         [TestMethod]
         public void GeekListParse_NoComments_NumberOfListItems()
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -220,7 +223,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -236,7 +239,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -252,7 +255,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -268,7 +271,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -284,7 +287,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -300,7 +303,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -316,7 +319,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -332,7 +335,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -348,7 +351,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -364,7 +367,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
@@ -380,7 +383,7 @@ namespace BGGdotNET_Test.UnitTest
         {
             // Arrange
             string relativePath = "TestData/XML_SimpleGeekList.xml";
-            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
             IXMLParser parser = new XMLParser();
 
