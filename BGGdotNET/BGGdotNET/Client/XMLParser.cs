@@ -104,8 +104,9 @@ namespace BGGdotNET.Client
                                  comments = (from com in data.Elements("comment")
                                              select new BoardGameComment
                                              {
-                                                 username = (string)com.Attribute("username"),
-                                                 comment = com.Value
+                                                 username = com.Attribute("username").Value,
+                                                 comment = com.Value,
+                                                 //rating = (float)com.Attribute("rating")
                                              }).ToList(),
 
                                  statistics = (from stat in data.Element("statistics").Elements("ratings")

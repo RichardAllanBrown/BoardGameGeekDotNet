@@ -9,6 +9,6 @@ namespace BGGdotNET.Objects
     {
         public string username { get; set; }
         public string comment { get; set; }
-        public int rating { get; set; }
+        public float rating { get; set; }
     }
 }

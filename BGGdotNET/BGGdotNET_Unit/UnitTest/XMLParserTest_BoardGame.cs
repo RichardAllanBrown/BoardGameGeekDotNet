@@ -161,6 +161,12 @@ namespace BGGdotNET_Test.UnitTest
             // Assert
             Assert.AreEqual(expected, result.First(x => x.ObjectID == 124742).imageURL);
         }
+    }
+
+    [TestClass]
+    public class XMLParserTest_BoardGame_Names
+    {
+        public string testDataRelativePath = "TestData/BoardGame.xml";
 
         //Methods that test the names of BoardGames
 
@@ -223,6 +229,12 @@ namespace BGGdotNET_Test.UnitTest
             // Assert
             Assert.AreEqual("Android: Netrunner", result.First(x => x.ObjectID == 124742).getPrimaryName());
         }
+    }
+
+    [TestClass]
+    public class XMLParserTest_BoardGame_BGGPairs
+    {
+        public string testDataRelativePath = "TestData/BoardGame.xml";
 
         //Methods to test all BGGPairings are returned
 
@@ -392,6 +404,12 @@ namespace BGGdotNET_Test.UnitTest
             // Assert
             Assert.AreEqual(5, result.First(x => x.ObjectID == 124742).versions.Count());
         }
+    }
+
+    [TestClass]
+    public class XMLParserTest_BoardGame_Polls
+    {
+        public string testDataRelativePath = "TestData/BoardGame.xml";
 
         //Methods to test the polls objects within a boardgame
 
@@ -522,9 +540,97 @@ namespace BGGdotNET_Test.UnitTest
                                     .polls.First(x => x.pollName == "language_dependence")
                                     .resultsList.First(x => x.level == 1).voteCount);
         }
+    }
+
+    [TestClass]
+    public class XMLParserTest_BoardGame_Comments
+    {
+        public string testDataRelativePath = "TestData/BoardGame.xml";
 
         //Methods to test the comments objects within a boardgame
 
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Comments_Count()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
 
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual(29, result.First(x => x.ObjectID == 124742).comments.Count);
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Comments_Username()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual(1, result.First(x => x.ObjectID == 124742).comments.Count(x => x.username =="A Strange Aeon"));
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Comments_Comment()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+            string expected = "Sounds really fun--I never got to play the original Netrunner (too busy with Magic at the time), but the theme and asymmetry sound really cool. ";
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual(expected, result.First(x => x.ObjectID == 124742).comments.First(x => x.username == "A Strange Aeon").comment);
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Comments_Rating()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual(7, result.First(x => x.ObjectID == 124742).comments.First(x => x.username == "A Strange Aeon").rating);
+        }
+    }
+
+    [TestClass]
+    public class XMLParserTest_BoardGame_Statistics
+    {
+        public string testDataRelativePath = "TestData/BoardGame.xml";
+
+        //Methods for testing the statistics
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Stats_Count()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual(94, result.First(x => x.ObjectID == 124742).statistics.Count);
+        }
     }
 }
