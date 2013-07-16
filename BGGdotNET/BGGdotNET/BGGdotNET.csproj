@@ -51,7 +51,7 @@
     <Compile Include="Settings\SettingEnums.cs" />
     <Compile Include="Objects\GeekList\GeekListComment.cs" />
     <Compile Include="Objects\Search\BGSearchResult.cs" />
-    <Compile Include="Objects\Search\BoardGame.cs" />
+    <Compile Include="Objects\BoardGame\BoardGame.cs" />
     <Compile Include="Objects\BoardGame\BoardGameComment.cs" />
     <Compile Include="Objects\BoardGame\BoardGameGeekPair.cs" />
     <Compile Include="Objects\BoardGame\BoardGameName.cs" />

@@ -2,14 +2,14 @@
   <boardgame objectid="124742">
     <yearpublished>2012</yearpublished>
     <minplayers>2</minplayers>
-    <maxplayers>2</maxplayers>
+    <maxplayers>4</maxplayers>
     <playingtime>45</playingtime>
     <age>14</age>
 
     <name primary="true" sortindex="1">Android: Netrunner</name>
     <name  sortindex="1">安卓纪元：矩阵潜袭</name>
 
-    <description>Game description from the publisher&lt;br/&gt;&lt;br/&gt;Welcome to New Angeles, home of the Beanstalk. From our branch offices in this monument of human achievement, NBN proudly broadcasts all your favorite media programming. We offer fully comprehensive streaming in music and threedee, news and sitcoms, classic movies and sensies. We cover it all. Ours is a brave new age, and as humanity hurtles into space and the future with an astonishing series of new advances every day, NBN and our affiliates are keeping pace, bringing you all the vid that's fit to view.&lt;br/&gt;&lt;br/&gt;Android: Netrunner is an asymmetrical Living Card Game for two players. Set in the cyberpunk future of Android and Infiltration, the game pits a megacorporation and its massive resources against the subversive talents of lone runners.&lt;br/&gt;&lt;br/&gt;Corporations seek to score agendas by advancing them. Doing so takes time and credits. To buy the time and earn the credits they need, they must secure their servers and data forts with &amp;quot;ice&amp;quot;. These security programs come in different varieties, from simple barriers, to code gates and aggressive sentries. They serve as the corporation's virtual eyes, ears, and machine guns on the sprawling information superhighways of the network.&lt;br/&gt;&lt;br/&gt;In turn, runners need to spend their time and credits acquiring a sufficient wealth of resources, purchasing the necessary hardware, and developing suitably powerful ice-breaker programs to hack past corporate security measures. Their jobs are always a little desperate, driven by tight timelines, and shrouded in mystery. When a runner jacks-in and starts a run at a corporate server, he risks having his best programs trashed or being caught by a trace program and left vulnerable to corporate countermeasures. It's not uncommon for an unprepared runner to fail to bypass a nasty sentry and suffer massive brain damage as a result. Even if a runner gets through a data fort's defenses, there's no telling what it holds. Sometimes, the runner finds something of value. Sometimes, the best he can do is work to trash whatever the corporation was developing.&lt;br/&gt;&lt;br/&gt;The first player to seven points wins the game, but not likely before he suffers some brain damage or bad publicity.&lt;br/&gt;&lt;br/&gt;</description>
+    <description>A shorter simpler description that is testable.  Duh.</description>
 
     <thumbnail>http://cf.geekdo-images.com/images/pic1324609_t.jpg</thumbnail>
     <image>http://cf.geekdo-images.com/images/pic1324609.jpg</image>
@@ -25,14 +25,24 @@
     <boardgamepodcastepisode objectid="99254">09 Agenda7 Netrunner Podcast</boardgamepodcastepisode>
     <boardgamepodcastepisode objectid="99292">10 Agenda7 Netrunner Podcast &amp;ndash; Strategies &amp;amp; Rants</boardgamepodcastepisode>
     <boardgamepodcastepisode objectid="101392">11 Agenda7 Netrunner Podcast – Regionals and Future Proof</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="93241">Special Bonus Episode - Trent Rules!</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="96373">SpieLamaCast</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="89487">Strange Assembly 068 - Icebreaker</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="95436">Strange Assembly 074 - Trilogy</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="97669">Strange Assembly 082 - Cyber Exodus</boardgamepodcastepisode>
+    <boardgamepodcastepisode objectid="97991">Strange Assembly 085 - A Study in Static</boardgamepodcastepisode>
+    
     <boardgamehonor objectid="20116">2012 Golden Geek Best 2-Player Board Game Nominee</boardgamehonor>
     <boardgamehonor objectid="20119">2012 Golden Geek Best Card Game Nominee</boardgamehonor>
     <boardgamehonor objectid="20988">2012 Golden Geek Best Card Game Winner</boardgamehonor>
     <boardgamehonor objectid="20993">2012 Golden Geek Golden Geek Best 2-Player Board Game Winner</boardgamehonor>
     <boardgamehonor objectid="22750">2012 Meeples&#039; Choice Nominee</boardgamehonor>
-    <boardgamepodcastepisode objectid="100992">5 Minute Initiative-Android: Netrunner</boardgamepodcastepisode>
+    
     <boardgamefamily objectid="17106">Android</boardgamefamily>
-    <boardgamepodcastepisode objectid="93301">Android: NetRunner</boardgamepodcastepisode>
+    <boardgamefamily objectid="5611">Cyberpunk</boardgamefamily>
+    <boardgamefamily objectid="18254">Android: Netrunner LCG</boardgamefamily>
+    <boardgamefamily objectid="20584">Hackers</boardgamefamily>
+    
     <boardgameexpansion objectid="135103">Android: Netrunner - A Study in Static</boardgameexpansion>
     <boardgameexpansion objectid="139596">Android: Netrunner - Creation and Control</boardgameexpansion>
     <boardgameexpansion objectid="133500">Android: Netrunner - Cyber Exodus</boardgameexpansion>
@@ -43,77 +53,40 @@
     <boardgameexpansion objectid="143694">Android: Netrunner - Second Thoughts</boardgameexpansion>
     <boardgameexpansion objectid="132005">Android: Netrunner - Trace Amount</boardgameexpansion>
     <boardgameexpansion objectid="130806">Android: Netrunner - What Lies Ahead</boardgameexpansion>
-    <boardgamefamily objectid="18254">Android: Netrunner LCG</boardgamefamily>
+    
     <boardgameartist objectid="56728">Bruno Balixa</boardgameartist>
-    <boardgameartist objectid="20316">Ralph Beisner</boardgameartist>
-    <boardgamecategory objectid="1023">Bluffing</boardgamecategory>
-    <boardgamepodcastepisode objectid="90408">Board &amp;amp; Base E05: Got Pen And Paper?</boardgamepodcastepisode>
     <boardgameartist objectid="66328">Del Borovic</boardgameartist>
-    <boardgamepodcastepisode objectid="102560">Breaking News — Episode 1</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102559">Breaking News — Episode 2</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102558">Breaking News — Episode 3</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102557">Breaking News — Episode 4</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102556">Breaking News — Episode 5</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102554">Breaking News — Episode 7</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102553">Breaking News — Episode 8</boardgamepodcastepisode>
+    <boardgameartist objectid="20316">Ralph Beisner</boardgameartist>
+    <boardgameartist objectid="29100">Gong Studios</boardgameartist>
+    <boardgameartist objectid="19229">Mark Anthony Taduran</boardgameartist>
+    <boardgameartist objectid="24858">Henning Ludvigsen</boardgameartist>
+    
+    <boardgamecategory objectid="1023">Bluffing</boardgamecategory>
     <boardgamecategory objectid="1002">Card Game</boardgamecategory>
+    <boardgamecategory objectid="1016">Science Fiction</boardgamecategory>
+    
     <boardgamesubdomain objectid="4667">Customizable Games</boardgamesubdomain>
-    <boardgamefamily objectid="5611">Cyberpunk</boardgamefamily>
+    <boardgamesubdomain objectid="5497">Strategy Games</boardgamesubdomain>
+    
     <boardgamepublisher objectid="2973">Edge Entertainment</boardgamepublisher>
-    <boardgameversion objectid="165641">English first edition</boardgameversion>
-    <boardgamepodcastepisode objectid="99264">Episode 001 : For the Love of the Game</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99263">Episode 002 : Core Values</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99262">Episode 003 : Bob the Builder</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="101553">Episode 004 : The Aftermath</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="100529">Episode 1 - Andromeda versus Core Weyland</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="94169">Episode 14 - The Break</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102277">Episode 2 - Big Dig Whizzard versus Core Haas-Bioroid</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="85923">Episode 2 - Living and Trading in the Net</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="101290">Episode 22: So You Want To Get Into Card Games!</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="96959">Episode 27: Pt. 1 - Totally Confused Again</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="91955">Episode 31: Android Netrunner, Gateway Games and Pacing in RPGs</boardgamepodcastepisode>
-    <boardgamepublisher objectid="17">Fantasy Flight Games</boardgamepublisher>
-    <boardgameversion objectid="196109">French first edition</boardgameversion>
     <boardgamepublisher objectid="4617">Galakta</boardgamepublisher>
     <boardgamepublisher objectid="12540">Game Harbor</boardgamepublisher>
-    <boardgamepodcastepisode objectid="95129">Gameophiles Podcast Episode 8</boardgamepodcastepisode>
-    <boardgamedesigner objectid="14">Richard Garfield</boardgamedesigner>
-    <boardgamepodcastepisode objectid="98336">GeekNights 20130122 - Impressions of Android:Netrunner</boardgamepodcastepisode>
-    <boardgameversion objectid="187733">German first edition</boardgameversion>
-    <boardgameartist objectid="29100">Gong Studios</boardgameartist>
-    <boardgamefamily objectid="20584">Hackers</boardgamefamily>
-    <boardgamemechanic objectid="2040">Hand Management</boardgamemechanic>
+    <boardgamepublisher objectid="17">Fantasy Flight Games</boardgamepublisher>
     <boardgamepublisher objectid="264">Heidelberger Spieleverlag</boardgamepublisher>
-    <boardgamedesigner objectid="62803">Lukas Litzsinger</boardgamedesigner>
-    <boardgamefamily objectid="5337">Living Card Game</boardgamefamily>
-    <boardgamepodcastepisode objectid="102040">Lucky Podcast Number Seven ft. Leigh Alexander</boardgamepodcastepisode>
-    <boardgameartist objectid="24858">Henning Ludvigsen</boardgameartist>
+    
+    <boardgameversion objectid="165641">English first edition</boardgameversion>
+    <boardgameversion objectid="196109">French first edition</boardgameversion>
+    <boardgameversion objectid="187733">German first edition</boardgameversion>
     <boardgameversion objectid="189758">Polish first edition</boardgameversion>
-    <boardgamecategory objectid="1016">Science Fiction</boardgamecategory>
-    <boardgamemechanic objectid="2016">Secret Unit Deployment</boardgamemechanic>
     <boardgameversion objectid="204079">Spanish first edition</boardgameversion>
-    <boardgamepodcastepisode objectid="93241">Special Bonus Episode - Trent Rules!</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="96373">SpieLamaCast</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="89487">Strange Assembly 068 - Icebreaker</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="95436">Strange Assembly 074 - Trilogy</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="97669">Strange Assembly 082 - Cyber Exodus</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="97991">Strange Assembly 085 - A Study in Static</boardgamepodcastepisode>
-    <boardgamesubdomain objectid="5497">Strategy Games</boardgamesubdomain>
-    <boardgameartist objectid="19229">Mark Anthony Taduran</boardgameartist>
-    <boardgamepodcastepisode objectid="102431">The Dice Section 15: Android: Netrunner</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99432">The Fifth SU&amp;amp;SD Podcast, From SU&amp;amp;SD</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99253">The Ice Box 1st Installation</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99252">The Ice Box 2nd Installation</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99251">The Ice Box 3rd Installation</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99250">The Ice Box 4th Installation</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99249">The Ice Box 5th Installation</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99248">The Ice Box 6th Installation</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="99431">The Very Sixth SU&amp;amp;SD Podcast</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="79993">This Board Game Life Episode #011 – All Things Stefan Feld</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="85066">This Board Game Life Episode #020 – GenCon 2012 Revisited (Part Two)</boardgamepodcastepisode>
+    
+    <boardgamedesigner objectid="14">Richard Garfield</boardgamedesigner>
+    <boardgamedesigner objectid="62803">Lukas Litzsinger</boardgamedesigner>
+    
+    <boardgamemechanic objectid="2040">Hand Management</boardgamemechanic>
+    <boardgamemechanic objectid="2016">Secret Unit Deployment</boardgamemechanic>
     <boardgamemechanic objectid="2015">Variable Player Powers</boardgamemechanic>
-    <boardgamepodcastepisode objectid="96889">Wooden Cubes &amp;amp; Iron Soldiers: “Just the Two of Us” Episode 8</boardgamepodcastepisode>
-    <boardgamepodcastepisode objectid="102477">[Reviews] N°45-B NetRunner, Targui et les jeux narratifs à l’honneur</boardgamepodcastepisode>
+    
     <boardgameimplementation objectid="1301" inbound="true">Netrunner</boardgameimplementation>
 
     <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="155">
@@ -140,7 +113,7 @@
     <poll name="language_dependence" title="Language Dependence" totalvotes="90">
 
       <results>
-        <result level="1" value="No necessary in-game text" numvotes="0" />
+        <result level="1" value="No necessary in-game text" numvotes="4" />
         <result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
         <result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="3" />
         <result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="82" />
