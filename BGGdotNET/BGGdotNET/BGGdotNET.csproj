@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Client\Interfaces\IBGGClient.cs" />
     <Compile Include="Client\Interfaces\IUrlBuilder.cs" />
+    <Compile Include="Client\ParseUtils.cs" />
     <Compile Include="Client\UrlBuilder.cs" />
     <Compile Include="Client\Interfaces\IXMLParser.cs" />
     <Compile Include="Client\XMLParser.cs" />

@@ -2358,25 +2358,21 @@
       <ratings date="20120812">
         <usersrated>16</usersrated>
         <average>8.03581</average>
-        <bayesaverage>0</bayesaverage>
+        <bayesaverage>8.5231</bayesaverage>
 
         <ranks>
-
-          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
-
-
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="3.2550" />
           <rank type="family" id="4667" name="cgs" friendlyname="Customizable Rank" value="Not Ranked" bayesaverage="6.05115" />
-
         </ranks>
 
         <stddev>2.05223</stddev>
-        <median>0</median>
+        <median>8.00123</median>
         <owned>20</owned>
-        <trading>0</trading>
+        <trading>10</trading>
         <wanting>185</wanting>
         <wishing>930</wishing>
         <numcomments>31</numcomments>
-        <numweights>0</numweights>
+        <numweights>6</numweights>
         <averageweight>3.1429</averageweight>
       </ratings>
     </statistics>

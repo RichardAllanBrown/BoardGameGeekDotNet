@@ -463,12 +463,7 @@ namespace BGGdotNET_Test.UnitTest
 
             IXMLParser parser = new XMLParser();
 
-            string expected = "2003 [b]Carcassonne: Traders &amp; Builders[/b]" +
-                              "24 land tiles (20 have goods on them, which are rather conspicuous)" +
-                              "20 trade good tokens (9 wine, 6 grain, 5 cloth)" +
-                              "1 pig × 6 colors (blue, yellow, green, red, black, grey)" +
-                              "1 builder × 6 colors (blue, yellow, green, red, black, grey)" +
-                              "1 cloth bag [It&#039;s about time!!]";
+            string expected = "This is a safer version of the body to test.  Wooooo!";
 
             // Act
             var result = parser.parseGeekListXML(testData);

@@ -21,12 +21,7 @@
 			editdate="Mon, 05 Nov 2007 19:57:31 +0000"
 			thumbs="1"
 						imageid="100654">
-    <body>
-      2000 [b]Carcassonne[/b]
-      72 land tiles (1 of which is a starting tile with a darker back)
-      8 followers × 5 colors (blue, yellow, green, red, black)
-      1 scoring track
-    </body>
+    <body>This is a safer version of the body to test.  Wooooo!</body>
 
   </item>
   <item id="186613"
@@ -74,14 +69,7 @@
 			editdate="Mon, 05 Nov 2007 19:58:08 +0000"
 			thumbs="1"
 						imageid="24630">
-    <body>
-      2003 [b]Carcassonne: Traders &amp; Builders[/b]
-      24 land tiles (20 have goods on them, which are rather conspicuous)
-      20 trade good tokens (9 wine, 6 grain, 5 cloth)
-      1 pig × 6 colors (blue, yellow, green, red, black, grey)
-      1 builder × 6 colors (blue, yellow, green, red, black, grey)
-      1 cloth bag [It&#039;s about time!!]
-    </body>
+    <body>This is a safer version of the body to test.  Wooooo!</body>
 
   </item>
   <item id="186616"

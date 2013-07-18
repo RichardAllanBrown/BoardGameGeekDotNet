@@ -112,6 +112,7 @@ namespace BGGdotNET.Client
                                  statistics = (from stat in data.Element("statistics").Elements("ratings")
                                                select new BoardGameStats
                                                {
+                                                   statDate = DateTime.ParseExact(stat.Attribute("date").Value,"yyyyMMdd", null),
                                                    average = (float)stat.Element("average"),
                                                    averageWeight = (float)stat.Element("averageweight"),
                                                    bayesAverage = (float)stat.Element("bayesaverage"),
@@ -124,9 +125,10 @@ namespace BGGdotNET.Client
                                                    usersRated = (int)stat.Element("usersrated"),
                                                    wanting = (int)stat.Element("wanting"),
                                                    wishing = (int)stat.Element("wishing"),
-                                                   ranks = (from ranks in stat.Elements("ranks")
+                                                   ranks = (from ranks in stat.Elements("ranks").Elements("rank")
                                                             select new BoardGameRank
                                                             {
+                                                                id = (int)ranks.Attribute("id"),
                                                                 name = (string)ranks.Attribute("name"),
                                                                 friendlyName = (string)ranks.Attribute("friendlyname"),
                                                                 type = (string)ranks.Attribute("type")
@@ -231,6 +233,7 @@ namespace BGGdotNET.Client
                                                   userName = it.Attribute("username").Value,
                                                   thumbs = int.Parse(it.Attribute("thumbs").Value),
                                                   imageID = int.Parse(it.Attribute("imageid").Value),
+                                                  body = it.Element("body").Value, //added
                                                   comments = (from com in data.Descendants("comment")
                                                               select new GeekListComment
                                                               {

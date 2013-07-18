@@ -616,7 +616,7 @@ namespace BGGdotNET_Test.UnitTest
     {
         public string testDataRelativePath = "TestData/BoardGame.xml";
 
-        //Methods for testing the statistics
+        //Tests for ensuring stats are correctly populated
 
         [TestMethod]
         public void boardGameParse_SingleGameAllData_Stats_Count()
@@ -855,7 +855,7 @@ namespace BGGdotNET_Test.UnitTest
         //Stat Rank tests
 
         [TestMethod]
-        public void boardGameParse_SingleGameAllData_Stats_Ranks_COunt()
+        public void boardGameParse_SingleGameAllData_Stats_Ranks_Count()
         {
             // Arrange
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
@@ -869,6 +869,113 @@ namespace BGGdotNET_Test.UnitTest
             Assert.AreEqual(2, result.First(x => x.ObjectID == 124742)
                                         .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
                                         .ranks.Count);
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Stats_Ranks_ID()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual(1, result.First(x => x.ObjectID == 124742)
+                                        .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
+                                        .ranks.Count(x => x.id == 1));
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Stats_Ranks_Type()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual("subtype", result.First(x => x.ObjectID == 124742)
+                                        .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
+                                        .ranks.First(x => x.id == 1)
+                                        .type);
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Stats_Ranks_Name()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual("boardgame", result.First(x => x.ObjectID == 124742)
+                                        .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
+                                        .ranks.First(x => x.id == 1)
+                                        .name);
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Stats_Ranks_FriendlyName()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual("Board Game Rank", result.First(x => x.ObjectID == 124742)
+                                        .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
+                                        .ranks.First(x => x.id == 1)
+                                        .friendlyName);
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Stats_Ranks_Value()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert
+            Assert.AreEqual("Not Ranked", result.First(x => x.ObjectID == 124742)
+                                        .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
+                                        .ranks.First(x => x.id == 1)
+                                        .friendlyName);
+        }
+
+        [TestMethod]
+        public void boardGameParse_SingleGameAllData_Stats_Ranks_BayesAverage()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseBoardGameXML(testData);
+
+            // Assert to within a 5% confidence interval
+            Assert.AreEqual(3.2550, result.First(x => x.ObjectID == 124742)
+                                        .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
+                                        .ranks.First(x => x.id == 1)
+                                        .bayesAverage, 0.05);
         }
     }
 }
