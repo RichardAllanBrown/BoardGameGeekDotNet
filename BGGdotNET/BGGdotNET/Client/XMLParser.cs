@@ -221,7 +221,9 @@ namespace BGGdotNET.Client
                                                  {
                                                      username = com.Attribute("username").Value,
                                                      thumbs = int.Parse(com.Attribute("thumbs").Value),
-                                                     commentText = com.Value
+                                                     commentText = com.Value,
+                                                     editDate = ParseUtils.stringToDateTime(com.Attribute("editdate").Value),
+                                                     postDate = ParseUtils.stringToDateTime(com.Attribute("postdate").Value),
                                                  }).ToList(),
 
                                      items = (from it in data.Descendants("item")

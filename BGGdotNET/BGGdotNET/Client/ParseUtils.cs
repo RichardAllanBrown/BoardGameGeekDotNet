@@ -13,9 +13,9 @@ namespace BGGdotNET.Client
 
             try
             {
-                result = DateTime.Parse(input);  //FORMAT:  Tue, 03 Nov 2009 17:11:22 +0000
+                result = DateTime.Parse(input);
             }
-            catch(Exception e)
+            catch
             {
                 result = DateTime.MinValue;
             }

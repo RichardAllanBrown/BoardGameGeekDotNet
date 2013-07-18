@@ -42,11 +42,13 @@ namespace BGGdotNET_Test.UnitTest
 
             IXMLParser parser = new XMLParser();
 
+            DateTime expected = DateTime.Parse("Sat, 18 Nov 2006 20:12:46 +0000");
+
             // Act
             var result = parser.parseGeekListXML(testData);
 
             // Assert
-            Assert.AreEqual(new DateTime(2006, 11, 18, 20, 12, 46), result.postDate);
+            Assert.AreEqual(expected, result.postDate);
         }
 
         [TestMethod]
@@ -72,11 +74,13 @@ namespace BGGdotNET_Test.UnitTest
 
             IXMLParser parser = new XMLParser();
 
+            DateTime expected = DateTime.Parse("Tue, 03 Nov 2009 17:11:22 +0000");
+
             // Act
             var result = parser.parseGeekListXML(testData);
 
             // Assert
-            Assert.AreEqual(new DateTime(2009, 11, 03, 17, 11, 22), result.editDate); 
+            Assert.AreEqual(expected, result.editDate); 
         }
 
         [TestMethod]
@@ -230,11 +234,13 @@ namespace BGGdotNET_Test.UnitTest
 
             IXMLParser parser = new XMLParser();
 
+            DateTime expected = DateTime.Parse("Thu, 27 May 2010 13:32:48 +0000");
+
             // Act
             var result = parser.parseGeekListXML(testData);
 
             // Assert
-            Assert.AreEqual(new DateTime(2010, 05, 27, 23, 57, 33), result.comments.First(x => x.username == "rokuroku").postDate);
+            Assert.AreEqual(expected, result.comments.First(x => x.username == "rokuroku").postDate);
         }
 
         [TestMethod]
@@ -245,11 +251,13 @@ namespace BGGdotNET_Test.UnitTest
 
             IXMLParser parser = new XMLParser();
 
+            DateTime expected = DateTime.Parse("Thu, 27 May 2010 13:32:48 +0000");
+
             // Act
             var result = parser.parseGeekListXML(testData);
 
             // Assert
-            Assert.AreEqual(new DateTime(2010, 05, 27, 23, 57, 33), result.comments.First(x => x.username == "rokuroku").editDate);
+            Assert.AreEqual(expected, result.comments.First(x => x.username == "rokuroku").editDate); //Thu, 27 May 2010 13:32:48 +0000
         }
 
         [TestMethod]
