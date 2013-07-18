@@ -213,6 +213,8 @@ namespace BGGdotNET.Client
                                      thumbs = int.Parse(data.Element("thumbs").Value),
                                      title = data.Element("title").Value,
                                      userName = data.Element("username").Value,
+                                     editDate = ParseUtils.stringToDateTime(data.Element("editdate").Value),
+                                     postDate = ParseUtils.stringToDateTime(data.Element("postdate").Value),
 
                                      comments = (from com in data.Descendants("comment")
                                                  select new GeekListComment
