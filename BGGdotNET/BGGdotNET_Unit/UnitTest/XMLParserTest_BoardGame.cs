@@ -487,7 +487,9 @@ namespace BGGdotNET_Test.UnitTest
             var result = parser.parseBoardGameXML(testData);
 
             // Assert
-            Assert.AreEqual(5, result.First(x => x.ObjectID == 124742).polls.First(x => x.pollName == "language_dependence").resultsList.Count);
+            Assert.AreEqual(5, result.First(x => x.ObjectID == 124742)
+                                .polls.First(x => x.pollName == "language_dependence")
+                                .resultsList.Count);
         }
 
         [TestMethod]
@@ -954,10 +956,10 @@ namespace BGGdotNET_Test.UnitTest
             var result = parser.parseBoardGameXML(testData);
 
             // Assert
-            Assert.AreEqual("Not Ranked", result.First(x => x.ObjectID == 124742)
+            Assert.AreEqual(0, result.First(x => x.ObjectID == 124742)
                                         .statistics.First(x => x.statDate == new DateTime(2012, 08, 12))
                                         .ranks.First(x => x.id == 1)
-                                        .friendlyName);
+                                        .value);
         }
 
         [TestMethod]

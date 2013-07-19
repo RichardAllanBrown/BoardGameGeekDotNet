@@ -16,20 +16,14 @@ namespace BGGdotNET.Client
                              select new BoardGame
                              {
                                  age = int.Parse(data.Element("age").Value),
-
                                  description = data.Element("description").Value,
-
                                  imageThumnailURL = data.Element("thumbnail").Value,
-
                                  imageURL = data.Element("image").Value,
-
                                  maxPlayers = int.Parse(data.Element("maxplayers").Value),
-
                                  minPlayers = int.Parse(data.Element("minplayers").Value),
-
                                  ObjectID = (int)data.Attribute("objectid"),
-
                                  yearPublished = int.Parse(data.Element("yearpublished").Value),
+                                 playingTime = int.Parse(data.Element("playingtime").Value), //
 
                                  categories = (from cat in data.Elements("boardgamecategory")
                                                select new BoardGameGeekPair
@@ -70,7 +64,8 @@ namespace BGGdotNET.Client
                                           select new BoardGameName
                                           {
                                               name = name.Value,
-                                              sortIndex = (int)name.Attribute("sortindex")
+                                              sortIndex = (int)name.Attribute("sortindex"),
+                                              isPrimary = (bool?)name.Attribute("primary") ?? false
                                           }).ToList(),
 
                                  podcasts = (from pod in data.Elements("boardgamepodcastepisode")
@@ -106,7 +101,7 @@ namespace BGGdotNET.Client
                                              {
                                                  username = com.Attribute("username").Value,
                                                  comment = com.Value,
-                                                 //rating = (float)com.Attribute("rating")
+                                                 rating = ParseUtils.setingToFloat(com.Attribute("rating").Value)
                                              }).ToList(),
 
                                  statistics = (from stat in data.Element("statistics").Elements("ratings")
@@ -129,23 +124,26 @@ namespace BGGdotNET.Client
                                                             select new BoardGameRank
                                                             {
                                                                 id = (int)ranks.Attribute("id"),
-                                                                name = (string)ranks.Attribute("name"),
-                                                                friendlyName = (string)ranks.Attribute("friendlyname"),
-                                                                type = (string)ranks.Attribute("type")
+                                                                name = ranks.Attribute("name").Value,
+                                                                friendlyName = ranks.Attribute("friendlyname").Value,
+                                                                type = ranks.Attribute("type").Value,
+                                                                value = ParseUtils.stringToInt(ranks.Attribute("value").Value),
+                                                                bayesAverage = ParseUtils.setingToFloat(ranks.Attribute("bayesaverage").Value)
                                                             }).ToList()
                                                }).ToList(),
 
                                  polls = (from pol in data.Elements("poll")
                                           select new BoardGamePoll
                                           {
-                                              pollName = (string)pol.Attribute("name"),
-                                              pollTitle = (string)pol.Attribute("title"),
+                                              pollName = pol.Attribute("name").Value,
+                                              pollTitle = pol.Attribute("title").Value,
                                               totalVotes = (int)pol.Attribute("totalvotes"),
-                                              resultsList = (from res in data.Elements("results")
+                                              resultsList = (from res in pol.Elements("results").Elements("result")
                                                              select new BoardGamePollResult
                                                              {
-                                                                 responseValue = (string)res.Attribute("value"),
-                                                                 voteCount = (int)res.Attribute("numvotes")
+                                                                 responseValue = res.Attribute("value").Value,
+                                                                 voteCount = (int?)res.Attribute("numvotes") ?? 0,
+                                                                 level = (int?)res.Attribute("level") ?? 0
                                                              }).ToList()
                                           }).ToList()
                              };
