@@ -70,6 +70,7 @@
     </Content>
     <Content Include="TestData\GeekListWithComments.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="TestData\GeekList.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

@@ -487,7 +487,7 @@ namespace BGGdotNET_Test.UnitTest
         public string testDataRelativePath = "TestData/GeekListWithComments.xml";
 
         [TestMethod]
-        public void geekListParse_Comments_ListItemCommentCount()
+        public void geekListParse_Comments_ListItemComment_Count()
         {
             // Arrange
             XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
@@ -499,6 +499,96 @@ namespace BGGdotNET_Test.UnitTest
 
             // Assert
             Assert.AreEqual(2, result.items.First(x => x.id == 186614).comments.Count);
+        }
+
+        [TestMethod]
+        public void geekListParse_Comments_ListItemComment_Username()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseGeekListXML(testData);
+
+            // Assert
+            Assert.AreEqual(1, result.items.First(x => x.id == 186614)
+                                        .comments.Count(x => x.username == "hfiguiere"));
+        }
+
+        [TestMethod]
+        public void geekListParse_Comments_ListItemComment_Thumbs()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            // Act
+            var result = parser.parseGeekListXML(testData);
+
+            // Assert
+            Assert.AreEqual(3, result.items.First(x => x.id == 186614)
+                                        .comments.First(x => x.username == "hfiguiere")
+                                        .thumbs);
+        }
+
+        [TestMethod]
+        public void geekListParse_Comments_ListItemComment_PostDate()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            DateTime expected = DateTime.Parse("Mon, 19 Jan 2009 06:16:30 +0000");
+
+            // Act
+            var result = parser.parseGeekListXML(testData);
+
+            // Assert
+            Assert.AreEqual(expected, result.items.First(x => x.id == 186614)
+                                        .comments.First(x => x.username == "hfiguiere")
+                                        .postDate);
+        }
+
+        [TestMethod]
+        public void geekListParse_Comments_ListItemComment_EditDate()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            DateTime expected = DateTime.Parse("Tue, 20 Jan 2009 03:12:30 +0000");
+
+            // Act
+            var result = parser.parseGeekListXML(testData);
+
+            // Assert
+            Assert.AreEqual(expected, result.items.First(x => x.id == 186614)
+                                        .comments.First(x => x.username == "hfiguiere")
+                                        .editDate);
+        }
+
+        [TestMethod]
+        public void geekListParse_Comments_ListItemComment_CommentText()
+        {
+            // Arrange
+            XDocument testData = XDocument.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, testDataRelativePath));
+
+            IXMLParser parser = new XMLParser();
+
+            string expected = "On my copy of Inn and Cathedrals, they all have a little symbol (meeple shape), making them easier to segregate them. I wish they were all like that.";
+
+            // Act
+            var result = parser.parseGeekListXML(testData);
+
+            // Assert
+            Assert.AreEqual(expected, result.items.First(x => x.id == 186614)
+                                        .comments.First(x => x.username == "hfiguiere")
+                                        .commentText);
         }
     }
 }

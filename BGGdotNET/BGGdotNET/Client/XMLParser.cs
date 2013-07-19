@@ -216,7 +216,7 @@ namespace BGGdotNET.Client
                                      editDate = ParseUtils.stringToDateTime(data.Element("editdate").Value),
                                      postDate = ParseUtils.stringToDateTime(data.Element("postdate").Value),
 
-                                     comments = (from com in data.Descendants("comment")
+                                     comments = (from com in data.Elements("comment")
                                                  select new GeekListComment
                                                  {
                                                      username = com.Attribute("username").Value,
@@ -237,13 +237,17 @@ namespace BGGdotNET.Client
                                                   userName = it.Attribute("username").Value,
                                                   thumbs = int.Parse(it.Attribute("thumbs").Value),
                                                   imageID = int.Parse(it.Attribute("imageid").Value),
-                                                  body = it.Element("body").Value, //added
-                                                  comments = (from com in data.Descendants("comment")
+                                                  body = it.Element("body").Value,
+                                                  editDate = ParseUtils.stringToDateTime(it.Attribute("editdate").Value),
+                                                  postDate = ParseUtils.stringToDateTime(it.Attribute("postdate").Value),
+                                                  comments = (from com in it.Elements("comment")
                                                               select new GeekListComment
                                                               {
                                                                   username = com.Attribute("username").Value,
                                                                   thumbs = int.Parse(com.Attribute("thumbs").Value),
-                                                                  commentText = com.Value
+                                                                  commentText = com.Value,
+                                                                  editDate = ParseUtils.stringToDateTime(com.Attribute("editdate").Value),
+                                                                  postDate = ParseUtils.stringToDateTime(com.Attribute("postdate").Value)
                                                               }).ToList()
                                               }).ToList()
                                  };
